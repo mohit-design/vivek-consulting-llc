@@ -61,11 +61,11 @@ p { font: 1.6rem/2 "Unbounded-Regular"; }
 
 	/*------- Mobile Header Section Ends -------*/
 	
-	/*------- Mobile Sidebar Menu Section Starts -------*/
+	/*------- Fixed Full Menu Pattern Section Starts -------*/
 
-.fixed-navbar-menu-mobile { display: none; }
+	.fixed-full-menu-pattern { display: none; }
 
-	/*------- Mobile Sidebar Menu Section Ends -------*/
+	/*------- Fixed Full Menu Pattern Section Ends -------*/
 
 	/*------- Desktop Navbar Menu Section Starts -------*/
 
