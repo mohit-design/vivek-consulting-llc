@@ -8,12 +8,14 @@ $(document).ready(function() {
 	   }
 	});
 	// Hamburger Menu and Navbar Menu JS
+  // Hamburger Menu JS
   $(".burger-menu").click(function() {
-		$(this).toggleClass("active");
-		$("body").toggleClass("active");
-		$(".bg-blur").toggleClass("active");
-		$(".fixed-navbar-menu-mobile").toggleClass("active");
-	});
+    $("body").toggleClass("active");
+    $(".fixed-full-menu-pattern").toggleClass("active");
+    $(".navbar-menu").toggleClass("active");
+    $(".whatsapp-number").toggleClass("active");
+    $(".header-social-media-listing").toggleClass("active");
+  });
 	$(".fixed-navbar-menu-mobile-close > i").click(function() {
 		$("body").removeClass("active");
 		$(".fixed-navbar-menu-mobile").removeClass("active");
