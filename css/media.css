@@ -1,0 +1,344 @@
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+
+/*------- Common CSS Starts -------*/
+
+.container-fluid { padding: 20px 15px; }
+.section-heading > h2 { font-size: 2.4rem; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Mobile Logo and Burger Menu Section Starts -------*/
+
+.bg-logo-burger-menu-mobile { background-color: #ffffff; display: block; padding: 15px; }
+.header-logo-mobile > a { display: inline-block; }
+.header-logo-mobile > a > img { height: 30px; }
+
+	  /*------- Mobile Hamburger Menu Section Starts -------*/
+
+.burger-menu { background-color: transparent; cursor: pointer; height: 25px; margin-left: auto; position: relative; width: 25px; z-index: 1; }
+.burger-menu span { background-color: #000000; height: 2px; left: 50%; position: absolute; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 25px; z-index: 1; }
+.burger-menu span::before,
+.burger-menu span::after { background-color: #000000; content: ""; display: block; height: 2px; position: absolute; top: 10px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 25px; z-index: 1; }
+.burger-menu span::before { top: -10px; }
+.burger-menu.active span { background-color: transparent; }
+.burger-menu.active span::before { top: 0; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
+.burger-menu.active span::after { top: 0; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); }
+
+	  /*------- Mobile Hamburger Menu Section Ends -------*/
+
+  /*------- Mobile Logo and Burger Menu Section Ends -------*/
+
+  /*------- Mobile Sidebar Menu Section Starts -------*/
+
+.fixed-navbar-menu-mobile { background-color: #000f16; display: block; height: 100%; left: 0; overflow-y: auto; padding: 15px; position: fixed; top: 0; -webkit-transform: translateX(-100%); -moz-transform: translateX(-100%); -ms-transform: translateX(-100%); -o-transform: translateX(-100%); transform: translateX(-100%); -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 250px; z-index: 10; }
+.fixed-navbar-menu-mobile.active { -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); transform: translateX(0); }
+.menu-listing-mobile > li { display: block; margin-bottom: 15px; position: relative; z-index: 1; }
+.menu-listing-mobile > li:last-child { margin-bottom: 0; }
+.menu-listing-mobile > li > a { color: #f7f7f7; font: 1.6rem/1.2 "Montserrat-Medium"; }
+.menu-listing-mobile > li.active > a,
+.menu-listing-mobile > li > a:hover { color: #0b76cb; }
+.menu-listing-mobile > li > i { position: absolute; right: 0; z-index: 1; }
+.menu-listing-mobile > li > i,
+.sub-menu-listing-mobile > li > i { color: #f7f7f7; font-size: 1.6rem; }
+.sub-menu-listing-mobile { background-color: #00000070; display: none; margin-top: 10px; padding: 15px; }
+.sub-menu-listing-mobile > li { display: block; margin-bottom: 10px; }
+.sub-menu-listing-mobile > li { position: relative; z-index: 1; }
+.sub-menu-listing-mobile > li:last-child { margin-bottom: 0; }
+.sub-menu-listing-mobile > li > a { color: #f7f7f7; font: 1.4rem/1.4 "Montserrat-Medium"; }
+.sub-menu-listing-mobile > li > a:hover { color: #0b76cb; }
+.sub-menu-listing-mobile > li > i { font-size: 1.5rem; padding: 0 5px; position: absolute; right: 0; z-index: 1; }
+
+  /*------- Mobile Sidebar Menu Section Ends -------*/
+
+  /*------- Desktop Navbar Menu Section Starts -------*/
+
+.bg-desktop-navbar-menu { display: none; }
+
+	/*------- Desktop Navbar Menu Section Ends -------*/
+
+  /*------- Banner Section Starts -------*/
+
+.bg-banner-home { padding: 30px 15px; }
+.banner-img-home { margin-right: 0; }
+.banner-img-home > img { margin-bottom: 20px; }
+.banner-info { margin: 0 40px; }
+.banner-info > p:first-child { display: block; font-size: 1.4rem; letter-spacing: 1px; padding: 10px 15px; }
+.banner-info > h1 { font-size: 3rem; }
+.banner-info > h1 > span:first-child { display: inline; }
+.banner-info > h1 > span:last-child { font-size: 2.2rem; }
+.banner-slick-slider .slick-prev,
+.banner-slick-slider .slick-next { height: 40px; width: 40px; }
+.banner-slick-slider .slick-prev { left: -5px; }
+.banner-slick-slider .slick-next { right: -5px; }
+.banner-slick-slider.slick-initialized .slick-slide { padding: 0 10px; }
+
+  /*------- Banner Section Ends -------*/
+
+  /*------- Counter Section Starts -------*/
+
+.bg-counter-home { padding: 30px 15px 0; }
+.box-counter-home { margin-bottom: 30px; }
+.box-counter-2-home,
+.box-counter-4-home { -webkit-transform: none; -moz-transform: none; -ms-transform: none; -o-transform: none; transform: none; }
+
+  /*------- Counter Section Ends -------*/
+
+  /*------- About Us Section Starts -------*/
+
+.about-img-home > img { margin-bottom: 15px; }
+
+	/*------- About Us Section Ends -------*/
+
+  /*------- Services Section Starts -------*/
+
+.box-services-home { margin-bottom: 30px; }
+
+  /*------- Services Section Ends -------*/
+
+  /*------- Features Section Starts -------*/
+
+.features-img-home > img { margin-bottom: 15px; }
+.features-section-heading-home > h2 { margin-bottom: 30px; }
+.media-body-features-info-home > h4 { font-size: 2rem; }
+.media-left-features-info-home { display: inline-block; padding-right: 0; }
+.media-left-features-info-home > img:last-child { left: 50%; }
+.media-features-2-info-home { margin-left: 0; }
+
+  /*------- Features Section Ends -------*/
+
+  /*------- Portfolio Section Starts -------*/
+
+.portfolio-listing-home { background-color: transparent; -webkit-border-radius: 0; -moz-border-radius: 0; -ms-border-radius: 0; -o-border-radius: 0; border-radius: 0; padding: 0; }
+.portfolio-listing-home > li { font-size: 1.6rem; margin: 0 10px 10px 0; padding: 7px 15px; }
+
+  /*------- Portfolio Section Ends -------*/
+
+  /*------- Newsletter Section Starts -------*/
+
+.newsletter-img-home { margin-bottom: 30px; }
+.input-group-addon-newsletter { font-size: 1.4rem; width: 145px; }
+
+  /*------- Newsletter Section Ends -------*/
+
+  /*------- Testimonials Section Starts -------*/
+
+.bg-testimonials-home { padding: 30px 15px 75px; }
+.testimonials-section-heading-home > p { margin-bottom: 30px; }
+.testimonials-slick-slider-home.slick-initialized .slick-slide { padding: 0 5px; }
+.testimonials-slick-slider-home .slick-prev,
+.testimonials-slick-slider-home .slick-next { bottom: -80px; }
+.testimonials-slick-slider-home .slick-prev { left: 35%; }
+.testimonials-slick-slider-home .slick-next { right: 35%; }
+
+  /*------- Testimonials Section Ends -------*/
+
+  /*------- Blog Section Starts -------*/
+
+.bg-blog-home { padding: 30px 15px 0; }
+.blog-section-heading-home > h2 { margin-bottom: 30px; }
+.blog-slick-slider-home.slick-initialized .slick-slide { padding: 0 5px; }
+.blog-slick-slider-home .slick-prev { left: -10px; }
+.blog-slick-slider-home .slick-next { right: -10px; }
+.box-blog-img-info-home { background-color: #f7f7f7; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none; box-shadow: none; margin-bottom: 30px; }
+.blog-time-info-home { text-align: center; }
+
+  /*------- Blog Section Ends -------*/
+
+  /*------- Contact Us Section Starts -------*/
+
+.contact-img-home { margin: 0 0 30px; }
+.input-group-contact { margin-bottom: 20px; }
+
+  /*------- Contact Us Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.bg-footer { padding: 30px 15px 0; }
+.footer-logo,
+.footer-social-listing,
+.footer-quick-links-listing { margin-bottom: 30px; }
+
+  /*------- Footer Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+/*------- Common CSS Starts -------*/
+
+.container-fluid { padding: 30px 15px; }
+.section-heading > h2 { font-size: 2.7rem; }
+.flex-column { flex-direction: column; }
+.justify-content-between { justify-content: space-between; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Mobile Header Section Starts -------*/
+
+.bg-header-mobile { background-color: #896eff; display: block; left: 0; padding: 5px 15px; position: -webkit-sticky; position: sticky; top: 0; -webkit-transition: 0.5s ease-in-out; -moz-transition: 0.5s ease-in-out; -ms-transition: 0.5s ease-in-out; -o-transition: 0.5s ease-in-out; transition: 0.5s ease-in-out; width: 100%; z-index: 10; }
+.mobile-header-logo > a { display: inline-block; }
+.mobile-header-logo > a > img { height: 25px; }
+
+    /*------- Mobile Hamburger Menu Section Starts -------*/
+
+.burger-menu { background-color: transparent; cursor: pointer; height: 50px; position: relative; width: 50px; }
+.burger-menu span { background-color: #ffffff; height: 2px; left: 50%; position: absolute; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 25px; }
+.burger-menu span::before,
+.burger-menu span::after { content: ""; background-color: #ffffff; height: 2px; width: 25px; position: absolute; top: 10px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+.burger-menu span::before { top: -10px; }
+.burger-menu.active span { background-color: transparent; }
+.burger-menu.active span::before { top: 0; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
+.burger-menu.active span::after { top: 0; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); }
+
+	  /*------- Mobile Hamburger Menu Section Ends -------*/
+
+  /*------- Mobile Header Section Ends -------*/
+
+  /*------- Mobile Sidebar Section Starts -------*/
+
+.fixed-sidebar {
+  background-color: #896eff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  left: 0;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: 0.5s ease;
+  -moz-transition: 0.5s ease;
+  -ms-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+  width: auto;
+  z-index: 10;
+}
+.fixed-sidebar.active {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+.sidebar-logo > a {
+  display: inline-block;
+}
+.sidebar-logo > a > img {
+  height: 30px;
+}
+.menu-listing > li { margin-bottom: 5px; }
+.menu-listing > li:last-child { margin-bottom: 0; }
+.menu-listing > li > a { color: #ffffff; }
+.menu-listing > li.active > a,
+.menu-listing > li > a:hover { color: #ffeb3b; }
+.sidebar-social-listing > li {
+  margin-right: 10px;
+}
+.sidebar-social-listing > li:last-child {
+  margin-right: 0;
+}
+.sidebar-social-listing > li > a {
+  border: 1px solid #f7f7f7;
+  border-radius: 50%;
+  color: #f7f7f7;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 40px;
+}
+.sidebar-social-listing > li > a:hover {
+  background-color: #f7f7f7;
+  border: 1px solid transparent;
+  color: #f0c107;
+}
+
+  /*------- Mobile Sidebar Section Ends -------*/
+
+  /*------- Desktop Navbar Menu Section Starts -------*/
+
+.bg-desktop-navbar-menu { display: none; }
+
+	/*------- Desktop Navbar Menu Section Ends -------*/
+
+  /*------- Footer Section Starts -------*/
+
+.bg-footer { padding: 30px 15px 0; }
+.footer-social-listing,
+.footer-quick-links-listing { margin-bottom: 30px; }
+
+  /*------- Footer Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+/*------- Common CSS Starts -------*/
+
+.container-fluid { padding: 30px 15px; }
+.section-heading > h2 { font-size: 2.7rem; }
+.flex-column { flex-direction: column; }
+.justify-content-between { justify-content: space-between; }
+
+/*------- Common CSS Ends -------*/
+
+/*------- Home Page Starts -------*/
+
+  /*------- Mobile Header Section Starts -------*/
+
+.bg-header-mobile { background-color: #896eff; display: block; left: 0; padding: 15px; position: -webkit-sticky; position: sticky; top: 0; -webkit-transition: 0.5s ease-in-out; -moz-transition: 0.5s ease-in-out; -ms-transition: 0.5s ease-in-out; -o-transition: 0.5s ease-in-out; transition: 0.5s ease-in-out; width: 100%; z-index: 10; }
+.mobile-header-logo > a { display: inline-block; }
+.mobile-header-logo > a > img { height: 45px; }
+
+    /*------- Mobile Hamburger Menu Section Starts -------*/
+
+.burger-menu { background-color: transparent; cursor: pointer; height: 50px; position: relative; width: 50px; }
+.burger-menu span { background-color: #ffffff; height: 2px; left: 50%; position: absolute; top: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 25px; }
+.burger-menu span::before,
+.burger-menu span::after { content: ""; background-color: #ffffff; height: 2px; width: 25px; position: absolute; top: 10px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+.burger-menu span::before { top: -10px; }
+.burger-menu.active span { background-color: transparent; }
+.burger-menu.active span::before { top: 0; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
+.burger-menu.active span::after { top: 0; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); }
+
+	  /*------- Mobile Hamburger Menu Section Ends -------*/
+
+  /*------- Mobile Header Section Ends -------*/
+
+  /*------- Mobile Navbar Menu Section Starts -------*/
+
+.fixed-navbar-menu-mobile { background-color: #fff; bottom: 0; display: block; clip-path: circle(100px at 90% -20%); height: 100%; left: 0; position: fixed; right: 0; top: 0; -webkit-transition: 1s ease; -moz-transition: 1s ease; -ms-transition: 1s ease; -o-transition: 1s ease; transition: 1s ease; width: 100%; z-index: 9; }
+.fixed-navbar-menu-mobile.active { clip-path: circle(1000px at 90% -10%); }
+.menu-listing-mobile { left: 50%; opacity: 0; position: absolute; top: 40%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); -webkit-transition: 1s ease; -moz-transition: 1s ease; -ms-transition: 1s ease; -o-transition: 1s ease; transition: 1s ease; visibility: hidden; width: 100%; z-index: 10; }
+.menu-listing-mobile.active { opacity: 1; top: 50%; -webkit-transition: 1s ease 0.25s; -moz-transition: 1s ease 0.25s; -ms-transition: 1s ease 0.25s; -o-transition: 1s ease 0.25s; transition: 1s ease 0.25s; visibility: visible; }
+.menu-listing-mobile > li { display: block; margin-bottom: 30px; }
+.menu-listing-mobile > li:last-child { margin-bottom: 0; }
+.menu-listing-mobile > li > a { color: #000; display: block; font: 2.4rem/1 "Poppins-Light"; text-align: center; }
+.menu-listing-mobile > li.active > a,
+.menu-listing-mobile > li > a:hover { color: #01b1ff; }
+
+  /*------- Mobile Navbar Menu Section Ends -------*/
+
+  /*------- Desktop Navbar Menu Section Starts -------*/
+
+.bg-desktop-navbar-menu { display: none; }
+
+	/*------- Desktop Navbar Menu Section Ends -------*/
+
+/*------- Home Page Ends -------*/
+
+}
