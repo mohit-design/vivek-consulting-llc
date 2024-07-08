@@ -98,6 +98,54 @@ p { font: 1.6rem/2 "Unbounded-Regular"; }
 	/*------- Slider Section Starts -------*/
 
 .wrapper { margin-top: 70px; }
+.section-banner { background-color: rgb(0 165 157 / 10%); }
+.banner-image > img { width: 100%; }
+.banner-section-heading > div { margin-bottom: 20px; }
+.banner-section-heading > h1 { color: #1a0a1e; font: 4rem/1.4 "Unbounded-Bold"; margin-bottom: 30px; }
+.banner-section-heading > h1 > span { color: #00a59d; }
+.banner-section-heading > h1 > span:last-child { color: #e5f6f5; display: block; position: relative; z-index: 1; }
+.banner-section-heading > h1 > span:last-child::before {
+	-webkit-animation: animateTextBanner 7s linear infinite;
+	animation: animateTextBanner 7s linear infinite;
+	border-right: 1px solid #e5f6f5;
+	color: #00a59d;
+	content: attr(data-text);
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	white-space: nowrap;
+	width: 100%;
+	z-index: 1;
+}
+@-webkit-keyframes animateTextBanner {
+	0% { width: 0; }
+	50% { width: 100%; }
+	100% { width: 0; }
+}
+@-moz-keyframes animateTextBanner {
+	0% { width: 0; }
+	50% { width: 100%; }
+	100% { width: 0; }
+}
+@-ms-keyframes animateTextBanner {
+	0% { width: 0; }
+	50% { width: 100%; }
+	100% { width: 0; }
+}
+@-o-keyframes animateTextBanner {
+	0% { width: 0; }
+	50% { width: 100%; }
+	100% { width: 0; }
+}
+@keyframes animateTextBanner {
+	0% { width: 0; }
+	50% { width: 100%; }
+	100% { width: 0; }
+}
+.banner-listing > li { margin-right: 15px; }
+.banner-listing > li:last-child { margin-right: 0; }
 
 	/*------- Slider Section Ends -------*/
 
