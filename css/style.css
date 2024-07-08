@@ -42,14 +42,18 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -moz
 .section-heading > h2.text-white { color: #ffffff; font: 3.6rem/1.4 "Unbounded-SemiBold"; }
 .section-heading > h2 > span { display: block; font-family: "Fahkwang-Medium"; }
 p { font: 1.6rem/2 "Unbounded-Regular"; }
-.read-more > a { border: 2px solid #1a0a1e; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; color: #1a0a1e; font: 1.6rem/normal "Unbounded-Medium"; display: inline-block; padding: 11px 22px; text-align: center; }
-.read-more > a > svg { fill: #1a0a1e; margin: -5px 0 0 10px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
-.read-more > a:hover { background-color: #1a0a1e; color: #ffffff; }
-.read-more > a:hover > svg { fill: #ffffff; }
-.read-more-white > a { border: 2px solid #ffffff; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; color: #ffffff; font: 1.6rem/normal "Unbounded-Medium"; display: inline-block; padding: 11px 22px; text-align: center; }
-.read-more-white > a > svg { fill: #ffffff; margin: -5px 0 0 10px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
-.read-more-white > a:hover { background-color: #ffffff; color: #1a0a1e; }
-.read-more-white > a:hover > svg { fill: #1a0a1e; }
+.btn-primary > a { background-color: #1a0a1e; border: 2px solid #1a0a1e; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; color: #ffffff; font: 1.6rem/normal "Unbounded-Medium"; display: inline-block; padding: 11px 22px; text-align: center; }
+.btn-primary > a > svg { fill: #ffffff; margin: -5px 0 0 10px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+.btn-primary > a:hover { background-color: #00a59d; border: 2px solid #00a59d; color: #ffffff; }
+.btn-primary > a:hover > svg { fill: #ffffff; }
+.btn-secondary > a { border: 2px solid #1a0a1e; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; color: #1a0a1e; font: 1.6rem/normal "Unbounded-Medium"; display: inline-block; padding: 11px 22px; text-align: center; }
+.btn-secondary > a > svg { fill: #1a0a1e; margin: -5px 0 0 10px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+.btn-secondary > a:hover { background-color: #1a0a1e; color: #ffffff; }
+.btn-secondary > a:hover > svg { fill: #ffffff; }
+.btn-primary-white > a { background-color: #ffffff; border: 2px solid #ffffff; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; color: #1a0a1e; font: 1.6rem/normal "Unbounded-Medium"; display: inline-block; padding: 11px 22px; text-align: center; }
+.btn-primary-white > a > svg { fill: #1a0a1e; margin: -5px 0 0 10px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+.btn-primary-white > a:hover { background-color: #00a59d; border: 2px solid #00a59d; color: #ffffff; }
+.btn-primary-white > a:hover > svg { fill: #ffffff; }
 
 /*------- Common CSS Ends -------*/
 
@@ -180,7 +184,7 @@ p { font: 1.6rem/2 "Unbounded-Regular"; }
 .box-services-icon-4::after { background-image: url("../images/services-dots-4.png"); }
 .box-services-icon-5::after { background-image: url("../images/services-dots-5.png"); }
 .box-services-icon-6::after { background-image: url("../images/services-dots-6.png"); }
-.box-services-info > h4 { color: #1a0a1e; font: 2rem/1.2 "Unbounded-Medium"; margin-bottom: 15px; text-transform: uppercase; }
+.box-services-info > h4 { color: #1a0a1e; font: 1.8rem/1.2 "Unbounded-Medium"; margin-bottom: 15px; text-transform: uppercase; }
 .box-services-info > p:nth-child(2) {
 	color: #545454;
 	margin-bottom: 15px;
@@ -239,6 +243,16 @@ p { font: 1.6rem/2 "Unbounded-Regular"; }
 
 	/*------- Blog Section Starts -------*/
 
+.box-blogs { background-color: #ffffff; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; margin-bottom: 30px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+.box-blogs:hover { box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px; -webkit-transform: translateY(-10px); -moz-transform: translateY(-10px); -ms-transform: translateY(-10px); -o-transform: translateY(-10px); transform: translateY(-10px); }
+.box-blogs-image > img { -webkit-border-radius: 14px 14px 0 0; -moz-border-radius: 14px 14px 0 0; -ms-border-radius: 14px 14px 0 0; -o-border-radius: 14px 14px 0 0; border-radius: 14px 14px 0 0; }
+.box-blogs-info { padding: 40px 20px 20px 30px; position: relative; z-index: 1; }
+.box-blogs-date { background-color: #ffffff; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px; left: 30px; padding: 15px; position: absolute; top: -30px; }
+.box-blogs-date > span { color: #1a0a1e; display: block; font: 1.4rem/normal "Unbounded-SemiBold"; text-align: center; }
+.box-blogs-date > span > span { color: #00a59d; }
+.box-blogs-name > p { line-height: 1.5; margin-bottom: 20px; }
+.box-blogs-name > p > a { color: #000000; display: inline-block; font-family: "Unbounded-Medium"; font-size: 1.8rem; }
+.box-blogs-name > p > a:hover { color: #00a59d; }
 
 	/*------- Blog Section Ends -------*/
 

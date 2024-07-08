@@ -351,7 +351,7 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 .menu-listing-mobile > li > a { color: #1a0a1e; font: 2.4rem/1.2 "Unbounded-Medium"; display: inline-block; }
 .menu-listing-mobile > li.active > a { color: #00a59d; }
 .menu-listing-mobile > li > i { color: #1a0a1e; font-size: 2.4rem; padding-left: 5px; }
-.sub-menu-listing-mobile { background-color: #1a0a1e; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px; display: none; margin-top: 10px; padding: 15px; width: 300px; }
+.sub-menu-listing-mobile { background-color: #1a0a1e; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px; display: none; margin-top: 10px; padding: 15px; width: 430px; }
 .sub-menu-listing-mobile > li { margin-bottom: 10px; }
 .sub-menu-listing-mobile > li:last-child { margin-bottom: 0; }
 .sub-menu-listing-mobile > li > a { color: #ffffff; font: 2rem/1.2 "Unbounded-Medium"; display: inline-block; }
