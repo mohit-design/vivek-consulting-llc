@@ -163,7 +163,7 @@ p { font: 1.6rem/2 "Unbounded-Regular"; }
 
 	/*------- Services Section Starts -------*/
 
-.services-section > .container-fluid { padding: 70px 15px 40px; }
+.services-section > .container-fluid { padding: 70px 15px; }
 .services-section-heading > h2 { margin-bottom: 50px; text-transform: uppercase; }
 .dash-arrow-and-paragraph { margin-bottom: 70px; position: relative; z-index: 1; }
 .dash-arrow-design {
@@ -264,10 +264,33 @@ p { font: 1.6rem/2 "Unbounded-Regular"; }
 
 	/*------- Services Section Ends -------*/
 
-	/*------- Counter Section Starts -------*/
+	/*------- Services Information Animation Section Starts -------*/
 
+.services-information-animation-section { background-color: #00a59d; padding: 30px 0; }
+.services-information-slider { overflow: hidden; }
+.services-information-slider .services-information-slider-marquee { display: flex; gap: 30px; overflow: hidden;	-webkit-user-select: none; -moz-user-select: none;	user-select: none; }
+.services-information-slider .services-information-slider-marquee .services-information-slider-marquee-group { align-items: center; -webkit-animation: services-information-slider-anim 70s linear infinite; animation: services-information-slider-anim 70s linear infinite; display: flex; flex-shrink: 0;	gap: 30px; min-width: 100%; }
+.services-information-slider .services-information-slider-marquee .services-information-slider-marquee-group span {	align-items: center; color: #1a0a1e;	display: flex; font: 5rem/normal "Unbounded-SemiBold"; gap: 30px; letter-spacing: 1px;	text-transform: uppercase; }
+.services-information-slider .services-information-slider-marquee .services-information-slider-marquee-group span svg {	fill: #1a0a1e; }
+.services-information-slider .services-information-slider-marquee .services-information-slider-marquee-group span svg.circle { fill: none;	stroke: #1a0a1e; }
+@keyframes services-information-slider-anim {
+	from {
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-ms-transform: translateX(0);
+		-o-transform: translateX(0);
+		transform: translateX(0);	;
+	}
+	to {
+		-webkit-transform: translateX(-100%);
+		-moz-transform: translateX(-100%);
+		-ms-transform: translateX(-100%);
+		-o-transform: translateX(-100%);
+		transform: translateX(-100%);
+	}
+}
 
-	/*------- Counter Section Ends -------*/
+	/*------- Services Information Animation Section Ends -------*/
 
 	/*------- Features Section Starts -------*/
 

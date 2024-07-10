@@ -7,6 +7,7 @@
 .section-heading > h2,
 .section-heading > h2.text-white { font-size: 2.4rem; }
 p { font: 1.4rem/1.8 "Unbounded-Regular"; }
+.btn-primary > a { padding: 11px 18px; }
 
 /*------- Common CSS Ends -------*/
 
@@ -73,6 +74,10 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
   /*------- Banner Section Starts -------*/
 
 .wrapper { margin-top: 0; }
+.banner-image > img { margin-bottom: 20px; }
+.banner-section-heading > h1 { font-size: 3rem; }
+.banner-section-heading > h1 > span:last-child { color: #00a59d; }
+.banner-section-heading > h1 > span:last-child::before { display: none; }
 
   /*------- Banner Section Ends -------*/
 
@@ -107,10 +112,12 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
   /*------- Services Section Ends -------*/
 
-  /*------- Features Section Starts -------*/
+  /*------- Services Information Animation Section Starts -------*/
 
+.services-information-animation-section { padding: 20px 0; }
+.services-information-slider .services-information-slider-marquee .services-information-slider-marquee-group span { font-size: 2.4rem; }
 
-  /*------- Features Section Ends -------*/
+  /*------- Services Information Animation Section Ends -------*/
 
   /*------- Portfolio Section Starts -------*/
 
