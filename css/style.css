@@ -295,6 +295,16 @@ p { font: 1.6rem/2 "Unbounded-Regular"; }
 .box-why-choose-us-icon { background-color: #ffffff; border: 1px solid #cccccc; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; height: 90px; left: 50%; position: absolute; top: -45px; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); width: 90px; z-index: 1; }
 .box-why-choose-us-icon > img { height: 40px; }
 .box-why-choose-us-icon > svg { height: 45px; fill: #00a59d; }
+.box-why-choose-us-info > h4 { color: #1a0a1e; font: 1.8rem/1.2 "Unbounded-Medium"; margin-bottom: 15px; text-transform: uppercase; }
+.box-why-choose-us-info > p {
+	color: #545454;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+					line-clamp: 3; 
+	-webkit-box-orient: vertical;
+}
 
 	/*------- Why Choose Us Section Ends -------*/
 
