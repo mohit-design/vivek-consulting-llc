@@ -291,7 +291,9 @@ p { font: 1.6rem/2 "Unbounded-Regular"; }
 
 	/*------- Why Choose Us Section Starts -------*/
 
-.box-why-choose-us { background-color: #ffffff; border: 1px solid #c4c4c4; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; margin-bottom: 30px; padding: 30px 25px; position: relative; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; z-index: 1; }
+.box-why-choose-us { background-color: #ffffff; border: 1px solid #c4c4c4; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; margin-bottom: 30px; padding: 75px 25px 30px; position: relative; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; z-index: 1; }
+.box-why-choose-us-icon { background-color: #ffffff; border: 1px solid #cccccc; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; height: 90px; left: 50%; position: absolute; top: -45px; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); width: 90px; z-index: 1; }
+.box-why-choose-us-icon > img { height: 40px; }
 .box-why-choose-us-icon > svg { height: 45px; fill: #00a59d; }
 
 	/*------- Why Choose Us Section Ends -------*/
