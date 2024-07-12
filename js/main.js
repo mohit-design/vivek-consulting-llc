@@ -1,4 +1,8 @@
 $(document).ready(function() {
+	// AOS Animation JS
+  AOS.init({
+    easing: 'ease-in-out-sine'
+  });
   // On Scroll Up Desktop Header JS
 	$(window).scroll(function(){
 	  if ($(window).scrollTop() >= 5) {
