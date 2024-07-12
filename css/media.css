@@ -177,6 +177,7 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 .container-fluid { padding: 20px 15px; }
 .section-heading > h2,
 .section-heading > h2.text-white { font-size: 2.4rem; }
+.section-heading > h2 { margin-bottom: 20px; }
 
 /*------- Common CSS Ends -------*/
 
