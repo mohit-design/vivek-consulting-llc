@@ -14,6 +14,7 @@ $(document).ready(function() {
 	// Hamburger Menu and Navbar Menu JS
   // Hamburger Menu JS
   $(".burger-menu").click(function() {
+		$(this).toggleClass("active");
     $("body").toggleClass("active");
     $(".fixed-full-menu-pattern").toggleClass("active");
     $(".navbar-menu").toggleClass("active");
