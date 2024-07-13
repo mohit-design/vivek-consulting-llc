@@ -6,6 +6,7 @@
 .container-fluid >.conatainer { padding: 0; }
 .section-heading > h2,
 .section-heading > h2.text-white { font-size: 2.4rem; }
+.section-heading > h2 { margin-bottom: 20px; }
 p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 .btn-primary > a { padding: 11px 18px; }
 
@@ -88,7 +89,6 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
   /*------- About Us Section Starts -------*/
 
-.about-us-section-heading > h2,
 .about-image > img { margin-bottom: 20px; }
 .about-info > p { margin-bottom: 20px; }
 .box-about-counter { margin-top: 30px; padding: 20px 20px 5px; }
@@ -119,34 +119,31 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
   /*------- Services Information Animation Section Ends -------*/
 
-  /*------- Portfolio Section Starts -------*/
+  /*------- Why Choose Us Section Starts -------*/
 
+.why-choose-us-image > img { margin-bottom: 20px; }
+.box-why-choose-us { margin: 45px 0 20px; padding: 65px 15px 20px; }
 
-  /*------- Portfolio Section Ends -------*/
-
-  /*------- Newsletter Section Starts -------*/
-
-
-  /*------- Newsletter Section Ends -------*/
-
-  /*------- Testimonials Section Starts -------*/
-
-
-  /*------- Testimonials Section Ends -------*/
+	/*------- Why Choose Us Section Ends -------*/
 
   /*------- Blog Section Starts -------*/
 
+.box-blogs { margin-bottom: 20px; }
 
   /*------- Blog Section Ends -------*/
 
   /*------- Contact Us Section Starts -------*/
 
+.contact-us-image > img,
+.form-group-contact-us { margin-bottom: 20px; }
+.form-control-contact-us { font-size: 1.4rem; }
 
   /*------- Contact Us Section Ends -------*/
 
   /*------- Footer Section Starts -------*/
 
 .footer-section > .container-fluid { padding: 20px 15px; }
+.footer-logo > a { text-align: center; }
 .footer-heading > h4 { font-size: 1.8rem; line-height: 1.5; margin-bottom: 20px; }
 .footer-company-desc > p { margin: 0 0 20px; }
 .footer-quick-links-listing { margin-bottom: 20px; }
@@ -163,6 +160,7 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 .footer-logo-contact-sub-listing > li { border-right: 0; padding: 30px 0; }
 .footer-logo-contact-sub-listing > li:last-child { padding: 0; }
 .footer-call-email > h4 > a { font-size: 1.8rem; word-break: break-all; }
+.copyright-info > p { font-size: 1.2rem; }
 
   /*------- Footer Section Ends -------*/
 
