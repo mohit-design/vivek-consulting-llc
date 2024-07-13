@@ -2,11 +2,16 @@
 
 /*------- Common CSS Starts -------*/
 
-.container-fluid { padding: 20px 15px; }
+.container-fluid { padding: 25px 15px; }
 .container-fluid >.conatainer { padding: 0; }
+.section-heading > div { margin-bottom: 15px; }
+.section-heading > div > span > svg,
 .section-heading > h2,
 .section-heading > h2.text-white { font-size: 2.4rem; }
 .section-heading > h2 { margin-bottom: 20px; }
+.dash-arrow-design { display: none; }
+.dash-arrow-and-paragraph { margin-bottom: 30px; }
+.dash-arrow-and-paragraph > p { margin-left: 0; }
 p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 .btn-primary > a { padding: 11px 18px; }
 
@@ -18,7 +23,7 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
 .bg-logo-burger-menu-mobile { background-color: #ffffff; display: block; padding: 10px 15px; position: relative; z-index: 10; }
 .header-logo-mobile > a { display: inline-block; }
-.header-logo-mobile > a > img { width: 120px; }
+.header-logo-mobile > a > img { width: 80px; }
 
 	  /*------- Mobile Hamburger Menu Section Starts -------*/
 
@@ -55,14 +60,15 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 .navbar-menu.active { opacity: 1; top: 50%; -webkit-transition: 1s ease 1.5s; -moz-transition: 1s ease 1.5s; -ms-transition: 1s ease 1.5s; -o-transition: 1s ease 1.5s; transition: 1s ease 1.5s; visibility: visible; }
 .menu-listing-mobile > li { display: block; margin-bottom: 15px; overflow: hidden; text-align: center; }
 .menu-listing-mobile > li:last-child { margin-bottom: 0; }
-.menu-listing-mobile > li > a { color: #1a0a1e; font: 1.8rem/1.2 "Unbounded-Medium"; display: inline-block; }
-.menu-listing-mobile > li.active > a { color: #00a59d; }
-.menu-listing-mobile > li > i { color: #1a0a1e; font-size: 1.8rem; padding-left: 5px; }
-.sub-menu-listing-mobile { background-color: #1a0a1e; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px; display: none; margin-top: 10px; padding: 15px; width: 295px; }
+.menu-listing-mobile > li > a { color: #1a0a1e; font: 2rem/1.2 "Unbounded-Medium"; display: inline-block; text-transform: uppercase; }
+.menu-listing-mobile > li > a:hover,
+.menu-listing-mobile > li.active > a { color: #38ad7e; }
+.menu-listing-mobile > li > i { color: #1a0a1e; font-size: 2.4rem; padding-left: 5px; }
+.sub-menu-listing-mobile { background-color: #1a0a1e; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px; display: none; margin-top: 10px; padding: 15px; width: 300px; }
 .sub-menu-listing-mobile > li { margin-bottom: 10px; }
 .sub-menu-listing-mobile > li:last-child { margin-bottom: 0; }
-.sub-menu-listing-mobile > li > a { color: #ffffff; font: 1.4rem/1.2 "Unbounded-Medium"; display: inline-block; }
-.sub-menu-listing-mobile > li > a:hover { color: #00a59d; }
+.sub-menu-listing-mobile > li > a { color: #ffffff; font: 1.2rem/1.2 "Unbounded-Medium"; display: inline-block; text-transform: uppercase; }
+.sub-menu-listing-mobile > li > a:hover { color: #38ad7e; }
 
   /*------- Fixed Full Menu Pattern Section Ends -------*/
 
@@ -75,37 +81,26 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
   /*------- Banner Section Starts -------*/
 
 .wrapper { margin-top: 0; }
-.banner-image > img { margin-bottom: 20px; }
-.banner-section-heading > h1 { font-size: 3rem; }
-.banner-section-heading > h1 > span:last-child { color: #00a59d; }
+.banner-image > img { margin-bottom: 25px; }
+.banner-section-heading > h1 { font-size: 3rem; margin-bottom: 25px; }
+.banner-section-heading > h1 > span:last-child { color: #38ad7e; }
 .banner-section-heading > h1 > span:last-child::before { display: none; }
 
   /*------- Banner Section Ends -------*/
 
-  /*------- Counter Section Starts -------*/
-
-
-  /*------- Counter Section Ends -------*/
-
   /*------- About Us Section Starts -------*/
 
-.about-image > img { margin-bottom: 20px; }
+.about-us-logo-image { display: none; }
+.about-image > img { margin-bottom: 25px; }
 .about-info > p { margin-bottom: 20px; }
 .box-about-counter { margin-top: 30px; padding: 20px 20px 5px; }
-.about-counter-info { margin-bottom: 20px; }
+.about-counter-info { margin-bottom: 20px; text-align: center; }
 
 	/*------- About Us Section Ends -------*/
 
   /*------- Services Section Starts -------*/
 
-.services-section > .container-fluid { padding: 20px 15px; }
-.section-heading > div { margin-bottom: 15px; }
-.services-section-heading > h2 { margin-bottom: 20px; }
-.section-heading > div > span > svg,
-.dash-arrow-design { display: none; }
-.dash-arrow-and-paragraph { margin-bottom: 30px; }
-.dash-arrow-and-paragraph > p { margin-left: 0; }
-.box-services { margin-bottom: 20px; padding: 20px 20px 25px; }
+.box-services { margin-bottom: 25px; padding: 20px 20px 25px; }
 .box-services:hover { -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
 .box-services-info > h4 { font-size: 1.8rem; line-height: 1.3; }
 .box-services-info > p > a { font-size: 1.4rem; }
@@ -121,20 +116,21 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
   /*------- Why Choose Us Section Starts -------*/
 
-.why-choose-us-image > img { margin-bottom: 20px; }
-.box-why-choose-us { margin: 45px 0 20px; padding: 65px 15px 20px; }
+.why-choose-us-image > img { margin-bottom: 30px; }
+.box-why-choose-us { margin: 45px 0 25px; padding: 65px 15px 20px; }
 
 	/*------- Why Choose Us Section Ends -------*/
 
   /*------- Blog Section Starts -------*/
 
-.box-blogs { margin-bottom: 20px; }
+.box-blogs { margin-bottom: 25px; }
 
   /*------- Blog Section Ends -------*/
 
   /*------- Contact Us Section Starts -------*/
 
-.contact-us-image > img,
+.contact-us-section > .container-fluid { padding: 60px 15px 25px; }
+.contact-us-image > img { margin-bottom: 25px; }
 .form-group-contact-us { margin-bottom: 20px; }
 .form-control-contact-us { font-size: 1.4rem; }
 
@@ -223,13 +219,13 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 .menu-listing-mobile > li { display: block; margin-bottom: 15px; overflow: hidden; text-align: center; }
 .menu-listing-mobile > li:last-child { margin-bottom: 0; }
 .menu-listing-mobile > li > a { color: #1a0a1e; font: 1.8rem/1.2 "Unbounded-Medium"; display: inline-block; }
-.menu-listing-mobile > li.active > a { color: #00a59d; }
+.menu-listing-mobile > li.active > a { color: #38ad7e; }
 .menu-listing-mobile > li > i { color: #1a0a1e; font-size: 1.8rem; padding-left: 5px; }
 .sub-menu-listing-mobile { background-color: #1a0a1e; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px; display: none; margin-top: 10px; padding: 15px; width: 270px; }
 .sub-menu-listing-mobile > li { margin-bottom: 10px; }
 .sub-menu-listing-mobile > li:last-child { margin-bottom: 0; }
 .sub-menu-listing-mobile > li > a { color: #ffffff; font: 1.2rem/1.2 "Unbounded-Medium"; display: inline-block; }
-.sub-menu-listing-mobile > li > a:hover { color: #00a59d; }
+.sub-menu-listing-mobile > li > a:hover { color: #38ad7e; }
 
   /*------- Fixed Full Menu Pattern Section Ends -------*/
 
@@ -355,13 +351,13 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 .menu-listing-mobile > li { display: block; margin-bottom: 15px; overflow: hidden; text-align: center; }
 .menu-listing-mobile > li:last-child { margin-bottom: 0; }
 .menu-listing-mobile > li > a { color: #1a0a1e; font: 2.4rem/1.2 "Unbounded-Medium"; display: inline-block; }
-.menu-listing-mobile > li.active > a { color: #00a59d; }
+.menu-listing-mobile > li.active > a { color: #38ad7e; }
 .menu-listing-mobile > li > i { color: #1a0a1e; font-size: 2.4rem; padding-left: 5px; }
 .sub-menu-listing-mobile { background-color: #1a0a1e; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px; display: none; margin-top: 10px; padding: 15px; width: 430px; }
 .sub-menu-listing-mobile > li { margin-bottom: 10px; }
 .sub-menu-listing-mobile > li:last-child { margin-bottom: 0; }
 .sub-menu-listing-mobile > li > a { color: #ffffff; font: 2rem/1.2 "Unbounded-Medium"; display: inline-block; }
-.sub-menu-listing-mobile > li > a:hover { color: #00a59d; }
+.sub-menu-listing-mobile > li > a:hover { color: #38ad7e; }
 
   /*------- Fixed Full Menu Pattern Section Ends -------*/
 
