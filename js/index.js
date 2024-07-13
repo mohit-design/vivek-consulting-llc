@@ -79,4 +79,24 @@ $(document).ready(function() {
     ease: "back",
     stagger: 0.05
   });
+  // Contact Us Section GreenSock Animation Platform JS
+  const contactUsMainHeadingTimeline = gsap.timeline({
+    scrollTrigger: {
+      trigger: "#contactUsMainHeading",
+      start: "top 75%",
+      end: "bottom 0%",
+      onToggle: self => gsap.to(".contact-us-main-heading", {opacity: self.isActive ? 1 : 0}),
+      toggleActions: "restart pause restart none"
+    }
+  });
+  const contactUsMainHeadingSplit = new SplitText(".contact-us-main-heading");
+  contactUsMainHeadingTimeline.from(contactUsMainHeadingSplit.chars, {
+    duration: 0.6,
+    scale: 1,
+    autoAlpha: 0,
+    rotationX: -90,
+    transformOrigin: "100% 50%",
+    ease: "back",
+    stagger: 0.05
+  });
 });
