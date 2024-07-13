@@ -104,6 +104,8 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 .box-services:hover { -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
 .box-services-info > h4 { font-size: 1.8rem; line-height: 1.3; }
 .box-services-info > p > a { font-size: 1.4rem; }
+.view-more-services-details,
+.view-more-blog-details { margin-top: 0; }
 
   /*------- Services Section Ends -------*/
 
@@ -116,6 +118,7 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
   /*------- Why Choose Us Section Starts -------*/
 
+.why-choose-us-section > .container-fluid { padding: 25px 15px 35px; }
 .why-choose-us-image > img { margin-bottom: 30px; }
 .box-why-choose-us { margin: 45px 0 25px; padding: 65px 15px 20px; }
 
@@ -123,6 +126,7 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
   /*------- Blog Section Starts -------*/
 
+.blog-section > .container-fluid { padding: 25px 15px; }
 .box-blogs { margin-bottom: 25px; }
 
   /*------- Blog Section Ends -------*/

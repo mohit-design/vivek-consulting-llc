@@ -284,7 +284,8 @@ p { font: 1.6rem/2 "Unbounded-Regular"; }
 	visibility: visible;
 }
 .box-services:hover .box-services-icon::after { right: 40px; }
-.view-more-services-details { margin-top: 20px; }
+.view-more-services-details,
+.view-more-blog-details { margin-top: 20px; }
 
 	/*------- Services Section Ends -------*/
 
