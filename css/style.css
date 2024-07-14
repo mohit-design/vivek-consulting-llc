@@ -5,7 +5,6 @@
 @font-face { font-family: "Unbounded-Medium"; src: url("../fonts/Unbounded-Medium.ttf"); }
 @font-face { font-family: "Unbounded-SemiBold"; src: url("../fonts/Unbounded-SemiBold.ttf"); }
 @font-face { font-family: "Unbounded-Bold"; src: url("../fonts/Unbounded-Bold.ttf"); }
-@font-face { font-family: "Fahkwang-Medium"; src: url("../fonts/Fahkwang-Medium.ttf"); }
 
 /*------- Font Family Ends -------*/
 
@@ -40,6 +39,8 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -moz
 .section-heading > div > span > svg { fill: #38ad7e; margin-left: 15px; }
 .section-heading > h2 { color: #041e20; font: 3.6rem/1.4 "Unbounded-SemiBold"; margin-bottom: 50px; }
 .section-heading > h2.text-white { color: #ffffff; font: 3.6rem/1.4 "Unbounded-SemiBold"; }
+.section-heading-ip > h1 { color: #ffffff; font: 4rem/1.2 "Unbounded-Bold"; margin-bottom: 5px; padding-bottom: 10px; position: relative; text-align: center; text-transform: uppercase; z-index: 1; }
+.section-heading-ip > h1::after { background-color: #fff; bottom: 0; content: ""; display: block; height: 2px; left: 50%; position: absolute; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); width: 100px; z-index: -1; }
 p { font: 1.6rem/2 "Unbounded-Regular"; }
 .btn-primary > a { background-color: #041e20; border: 2px solid #041e20; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; color: #ffffff; font: 1.6rem/normal "Unbounded-Medium"; display: inline-block; padding: 11px 22px; text-align: center; }
 .btn-primary > a > svg { fill: #ffffff; margin: -5px 0 0 10px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
@@ -122,7 +123,7 @@ p { font: 1.6rem/2 "Unbounded-Regular"; }
 
 	/*------- Banner Section Starts -------*/
 
-.wrapper { margin-top: 70px; }
+.wrapper { margin-top: 100px; }
 .section-banner { background-color: rgb(56 173 126 / 10%); }
 .banner-image > img { width: 100%; }
 .banner-section-heading > div { margin-bottom: 20px; }
@@ -426,6 +427,83 @@ textarea.form-control-contact-us { height: 130px; resize: none; }
 .copyright-info > p { color: #dfdfdf; font-size: 1.4rem; }
 .copyright-info > p > span { color: #ffffff; }
 
-	/*------- Footer Section Ends -------*
+	/*------- Footer Section Ends -------*/
 
 /*------- Home Page Ends -------*/
+
+/*------- About Us Page Starts -------*/
+
+	/*------- Inner Banner Section Starts -------*/
+
+.banner-inner-page-section { background: url("../images/banner.jpg") no-repeat 100% 65%/cover; position: relative; z-index: 1; }
+.banner-inner-page-section::before { background-color: rgb(4 30 32 / 70%); content: ""; display: block; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: -1; }
+
+	/*------- Inner Banner Section Ends -------*/
+
+	/*------- About Us Section Starts -------*/
+
+.about-info-ap > p { color: #444444; margin-bottom: 15px; }
+
+	/*------- About Us Section Ends -------*/
+
+	/*------- Mission and Vision Section Starts -------*/
+
+.mission-vision-section > .container-fluid { padding-top: 0; }
+.mission-vision-info > h4 { color: #38ad7e; font: 2.4rem/normal "Unbounded-Medium"; margin-bottom: 10px; }
+.mission-vision-info > p { color: #444444; margin-bottom: 20px; }
+.mission-vision-info > p:last-child { margin-bottom: 0; }
+
+	/*------- Mission and Vision Section Ends -------*/
+
+	/*------- Testimonials Section Starts -------*/
+
+.testimonial-section { padding-bottom: 100px; }
+.box-testimonials-info { background-color: #38ad7e; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; padding: 20px; }
+.box-testimonials-info > p { border-bottom: 1px solid #c4c4c4; color: #ffffff; margin-bottom: 15px; padding-bottom: 15px; }
+.media-left-testimonials { margin-right: 10px; }
+.media-left-testimonials > img { border: 2px solid #ffffff; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; height: 70px; padding: 4px; width: 70px; }
+.media-body-testimonials { vertical-align: middle; }
+.media-body-testimonials > h5 { color: #ffffff; font: 1.8rem/1.2 "Unbounded-SemiBold"; }
+.media-body-testimonials > p { color: #ffffff; font-size: 1.4rem; }
+
+		/*------- Slick Slider Arrow CSS Starts -------*/
+
+.testimonial-section .slick-initialized .slick-slide { padding: 0 15px; }
+.testimonial-section .slick-prev { left: -25px; }
+.testimonial-section .slick-next { right: -25px; }
+.testimonial-section .slick-prev.slick-disabled,
+.testimonial-section .slick-next.slick-disabled { border: 1px solid #cccccc; cursor: not-allowed; }
+.testimonial-section .slick-prev,
+.testimonial-section .slick-next { background-color: #041e20; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; height: 48px; margin-top: -25px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 48px; z-index: 1; }
+.testimonial-section .slick-prev { bottom: -100px; left: 42%; top: auto; }
+.testimonial-section .slick-next { bottom: -100px; right: 42%; top: auto; }
+.testimonial-section .slick-prev.slick-disabled:hover,
+.testimonial-section .slick-prev.slick-disabled:focus,
+.testimonial-section .slick-next.slick-disabled:hover,
+.testimonial-section .slick-next.slick-disabled:focus { background-color: transparent; }
+.testimonial-section .slick-prev:hover,
+.testimonial-section .slick-prev:focus,
+.testimonial-section .slick-next:hover,
+.testimonial-section .slick-next:focus { background-color: #38ad7e; }
+.testimonial-section .slick-prev::before,
+.testimonial-section .slick-next::before { color: #ffffff; font-family: "Font Awesome 5 Free"; font-weight: 900; opacity: 1; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+.testimonial-section .slick-prev::before { content: "\f053"; }
+.testimonial-section .slick-next::before { content: "\f054"; }
+.testimonial-section .slick-prev.slick-disabled::before,
+.testimonial-section .slick-next.slick-disabled::before,
+.testimonial-section .slick-prev.slick-disabled:hover::before,
+.testimonial-section .slick-next.slick-disabled:hover::before,
+.testimonial-section .slick-prev.slick-disabled:focus::before,
+.testimonial-section .slick-next.slick-disabled:focus::before { color: #cccccc; }
+.testimonial-section .slick-prev:hover::before,
+.testimonial-section .slick-next:hover::before,
+.testimonial-section .slick-prev:focus::before,
+.testimonial-section .slick-next:focus::before { color: #ffffff; }
+.testimonial-section .slick-next.slick-disabled:before,
+.testimonial-section .slick-prev.slick-disabled:before { opacity: 1; }
+
+		/*------- Slick Slider Arrow CSS Ends -------*/
+
+	/*------- Testimonials Section Ends -------*/
+
+/*------- About Us Page Ends -------*/
