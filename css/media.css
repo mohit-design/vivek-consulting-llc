@@ -8,7 +8,8 @@
 .section-heading > div > span > svg,
 .section-heading > h2,
 .section-heading > h2.text-white { font-size: 2.4rem; }
-.section-heading > h2 { margin-bottom: 20px; }
+.section-heading > h2 { margin-bottom: 25px; }
+.section-heading-ip > h1 { font-size: 3rem; }
 .dash-arrow-design { display: none; }
 .dash-arrow-and-paragraph { margin-bottom: 30px; }
 .dash-arrow-and-paragraph > p { margin-left: 0; }
@@ -118,7 +119,7 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
   /*------- Why Choose Us Section Starts -------*/
 
-.why-choose-us-section > .container-fluid { padding: 25px 15px 35px; }
+.why-choose-us-section > .container-fluid { padding: 25px 15px 45px; }
 .why-choose-us-image > img { margin-bottom: 30px; }
 .box-why-choose-us { margin: 45px 0 25px; padding: 65px 15px 20px; }
 
@@ -165,6 +166,32 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
   /*------- Footer Section Ends -------*/
 
 /*------- Home Page Ends -------*/
+
+/*------- About Us Page Starts -------*/
+
+  /*------- Mission and Vision Section Starts -------*/
+
+.mission-vision-image > img { margin-bottom: 25px; }
+.mission-vision-info > h4 { font-size: 1.8rem; }
+
+	/*------- Mission and Vision Section Ends -------*/
+
+  /*------- Testimonials Section Starts -------*/
+
+.testimonial-section > .container-fluid { padding-bottom: 100px; padding-top: 0; }
+.testimonial-section .slick-initialized .slick-slide { padding: 0 10px; }
+.testimonials-image > img { margin-bottom: 25px; }
+
+		/*------- Slick Slider Arrow CSS Starts -------*/
+
+.testimonial-section .slick-prev { left: 32%; }
+.testimonial-section .slick-next { right: 32%; }
+
+		/*------- Slick Slider Arrow CSS Ends -------*/
+
+	/*------- Testimonials Section Ends -------*/
+
+/*------- About Us Page Ends -------*/
 
 }
 
