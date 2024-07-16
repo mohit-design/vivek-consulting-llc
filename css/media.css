@@ -103,7 +103,7 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
 .box-services { margin-bottom: 25px; padding: 20px 20px 25px; }
 .box-services:hover { -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
-.box-services-info > h4 { font-size: 1.8rem; line-height: 1.3; }
+.box-services-info > h4 > span { display: inline; }
 .box-services-info > p > a { font-size: 1.4rem; }
 .view-more-services-details,
 .view-more-blog-details { margin-top: 0; }
@@ -192,6 +192,19 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 	/*------- Testimonials Section Ends -------*/
 
 /*------- About Us Page Ends -------*/
+
+/*------- Services Page Starts -------*/
+
+	/*------- Services Section Starts -------*/
+
+.box-services-sp { display: block; margin-bottom: 25px; }
+.box-services-sp-icon { margin: 0 0 45px 0; }
+.box-services-sp-info > h4 { line-height: 1.4; margin-bottom: 10px; }
+.box-services-sp-info > p:nth-child(2) { margin-bottom: 15px; }
+
+	/*------- Services Section Ends -------*/
+
+/*------- Services Page Ends -------*/
 
 }
 
