@@ -208,6 +208,19 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
 /*------- Services Page Ends -------*/
 
+/*------- Technologies Page Starts -------*/
+
+	/*------- Technologies Section Starts -------*/
+
+.box-technologies { margin-bottom: 25px; }
+.box-technologies-icon { padding: 20px; }
+.box-technologies-icon > svg { height: 80px; width: 80px; }
+.box-technologies-info > h5 { font-size: 1.6rem; }
+
+	/*------- Technologies Section Ends -------*/
+
+/*------- Technologies Page Ends -------*/
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
