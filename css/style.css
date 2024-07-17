@@ -524,10 +524,10 @@ textarea.form-control-contact-us { height: 130px; resize: none; }
 
 	/*------- Technologies Section Starts -------*/
 
-.box-technologies { background-color: #ffffff; border: 2px solid #041e20; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; margin-bottom: 30px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+.box-technologies { background-color: #ffffff; border: 2px solid #c4c4c4; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; margin-bottom: 30px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
 .box-technologies-icon { padding: 30px; text-align: center; }
 .box-technologies-icon > svg { height: 100px; width: 100px; }
-.box-technologies-info > h5 { background-color: #041e20; -webkit-border-radius: 0 0 10px 10px; -moz-border-radius: 0 0 10px 10px; -ms-border-radius: 0 0 10px 10px; -o-border-radius: 0 0 10px 10px; border-radius: 0 0 10px 10px; color: #ffffff; font: 1.8rem/1.4 "Unbounded-SemiBold"; padding: 10px; text-align: center; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+.box-technologies-info > h5 { background-color: #c4c4c4; -webkit-border-radius: 0 0 10px 10px; -moz-border-radius: 0 0 10px 10px; -ms-border-radius: 0 0 10px 10px; -o-border-radius: 0 0 10px 10px; border-radius: 0 0 10px 10px; color: #041e20; font: 1.8rem/1.4 "Unbounded-SemiBold"; padding: 10px; text-align: center; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
 .box-technologies:hover { border: 2px solid #38ad7e; }
 .box-technologies:hover > .box-technologies-info > h5 { background-color: #38ad7e; color: #ffffff; }
 
