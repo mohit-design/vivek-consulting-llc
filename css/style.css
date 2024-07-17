@@ -192,7 +192,7 @@ p { color: #444444; font: 1.6rem/2 "Unbounded-Regular"; }
 
 .dash-arrow-and-paragraph { margin-bottom: 70px; position: relative; z-index: 1; }
 .dash-arrow-design {
-	background-color: #545454;
+	background-color: #444444;
 	content: "";
 	height: 1px;
 	left: 0;
@@ -203,7 +203,7 @@ p { color: #444444; font: 1.6rem/2 "Unbounded-Regular"; }
 	z-index: -1;
 }
 .dash-arrow-design::after {
-	background-color: #545454;
+	background-color: #444444;
 	-webkit-clip-path: polygon(100% 50%, 0 100%, 0 0);
 	clip-path: polygon(100% 50%, 0 100%, 0 0);
 	content: "";
@@ -220,8 +220,8 @@ p { color: #444444; font: 1.6rem/2 "Unbounded-Regular"; }
 	z-index: -1;
 }
 .dash-arrow-and-paragraph > p { margin-left: 230px; }
-.box-services { background-color: #ffffff; border: 1px solid #c4c4c4; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; margin-bottom: 30px; padding: 30px 25px; position: relative; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; z-index: 1; }
-.box-services-icon { -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px; height: 90px; margin: 30px auto 45px; position: relative; width: 90px; position: relative; z-index: 1; }
+.box-services { background-color: #ffffff; border: 2px solid #c4c4c4; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; margin-bottom: 30px; padding: 0 25px 30px; position: relative; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; z-index: 1; }
+.box-services-icon { -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px; height: 90px; margin: 30px auto 40px; position: relative; width: 90px; position: relative; z-index: 1; }
 .box-services-icon > svg { fill: #ffffff; height: 45px; width: 90px; }
 .box-services-icon-1 { background-color: #ffa808; }
 .box-services-icon-2 { background-color: #ff586e; }
@@ -244,7 +244,7 @@ p { color: #444444; font: 1.6rem/2 "Unbounded-Regular"; }
 	height: 132px;
 	position: absolute;
 	right: -20px;
-	top: -20px;
+	top: -30px;
 	-webkit-transition: 0.5s ease;
 	-moz-transition: 0.5s ease;
 	-ms-transition: 0.5s ease;
@@ -311,9 +311,8 @@ p { color: #444444; font: 1.6rem/2 "Unbounded-Regular"; }
 
 	/*------- Why Choose Us Section Starts -------*/
 
-.box-why-choose-us { background-color: #ffffff; border: 1px solid #c4c4c4; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; margin: 45px 0 30px; padding: 75px 25px 30px; position: relative; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; z-index: 1; }
-.box-why-choose-us-icon { background-color: #ffffff; border: 1px solid #c4c4c4; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; height: 90px; left: 50%; position: absolute; top: -45px; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); width: 90px; z-index: 1; }
-.box-why-choose-us-icon > img { height: 40px; }
+.box-why-choose-us { background-color: #ffffff; border: 2px solid #c4c4c4; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; margin: 45px 0 30px; padding: 75px 25px 30px; position: relative; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; z-index: 1; }
+.box-why-choose-us-icon { background-color: #ffffff; border: 2px solid #c4c4c4; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; height: 90px; left: 50%; position: absolute; top: -45px; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 90px; z-index: 1; }
 .box-why-choose-us-icon > svg { height: 45px; fill: #38ad7e; }
 .box-why-choose-us-info > h4 { color: #041e20; font: 1.8rem/1.2 "Unbounded-Medium"; margin-bottom: 15px; text-transform: uppercase; }
 .box-why-choose-us-info > p {
@@ -325,7 +324,9 @@ p { color: #444444; font: 1.6rem/2 "Unbounded-Regular"; }
 	-webkit-box-orient: vertical;
 }
 .box-why-choose-us:hover,
-.box-why-choose-us:hover .box-why-choose-us-icon { border: 1px solid #38ad7e; }
+.box-why-choose-us:hover > .box-why-choose-us-icon { border: 1px solid #38ad7e; }
+.box-why-choose-us:hover > .box-why-choose-us-icon { background-color: #38ad7e; }
+.box-why-choose-us:hover .box-why-choose-us-icon > svg { fill: #ffffff; }
 
 	/*------- Why Choose Us Section Ends -------*/
 
@@ -432,7 +433,7 @@ textarea.form-control-contact-us { height: 130px; resize: none; }
 
 	/*------- About Us Section Starts -------*/
 
-.about-info-ap > p { margin-bottom: 15px; }
+.about-info-ap > p { color: #444444; margin-bottom: 15px; }
 .about-info-ap > p:last-child { margin-bottom: 0; }
 
 	/*------- About Us Section Ends -------*/
@@ -503,7 +504,8 @@ textarea.form-control-contact-us { height: 130px; resize: none; }
 
 	/*------- Services Section Starts -------*/
 
-.box-services-sp { border: 1px solid #c4c4c4; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; margin-bottom: 50px; padding: 20px 20px 25px; }
+.technologies-section > .container-fluid { padding-bottom: 40px; }
+.box-services-sp { border: 2px solid #c4c4c4; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; margin-bottom: 50px; padding: 30px 20px 35px; }
 .box-services-sp:last-child { margin-bottom: 0; }
 .box-services-sp-icon { -webkit-align-items: center; align-items: center; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; justify-content: center; margin: 0 50px 0 0; }
 .box-services-sp-info > h4 { color: #041e20; font: 1.8rem/1.4 "Unbounded-Medium"; margin-bottom: 5px; text-transform: uppercase; }
@@ -517,6 +519,21 @@ textarea.form-control-contact-us { height: 130px; resize: none; }
 	/*------- Services Section Ends -------*/
 
 /*------- Services Page Ends -------*/
+
+/*------- Technologies Page Starts -------*/
+
+	/*------- Technologies Section Starts -------*/
+
+.box-technologies { background-color: #ffffff; border: 2px solid #041e20; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; margin-bottom: 30px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+.box-technologies-icon { padding: 30px; text-align: center; }
+.box-technologies-icon > svg { height: 100px; width: 100px; }
+.box-technologies-info > h5 { background-color: #041e20; -webkit-border-radius: 0 0 10px 10px; -moz-border-radius: 0 0 10px 10px; -ms-border-radius: 0 0 10px 10px; -o-border-radius: 0 0 10px 10px; border-radius: 0 0 10px 10px; color: #ffffff; font: 1.8rem/1.4 "Unbounded-SemiBold"; padding: 10px; text-align: center; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+.box-technologies:hover { border: 2px solid #38ad7e; }
+.box-technologies:hover > .box-technologies-info > h5 { background-color: #38ad7e; color: #ffffff; }
+
+	/*------- Technologies Section Ends -------*/
+
+/*------- Technologies Page Ends -------*/
 
 /*------- Blogs Page Starts -------*/
 
