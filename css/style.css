@@ -38,6 +38,7 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -moz
 .section-heading > div > span.text-white { color: #ffffff; font: 1.6rem/normal "Unbounded-Medium"; }
 .section-heading > div > span > svg { fill: #38ad7e; margin-left: 15px; }
 .section-heading > h2 { color: #041e20; font: 3.6rem/1.4 "Unbounded-SemiBold"; margin-bottom: 50px; }
+.section-heading > h2 span { color: #38ad7e; }
 .section-heading > h2.text-white { color: #ffffff; font: 3.6rem/1.4 "Unbounded-SemiBold"; }
 .section-heading-ip > h1 { color: #ffffff; font: 4rem/1.2 "Unbounded-Bold"; padding-bottom: 10px; position: relative; text-align: center; text-transform: uppercase; z-index: 1; }
 .section-heading-ip > h1::after { background-color: #fff; bottom: 0; content: ""; display: block; height: 2px; left: 50%; position: absolute; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); width: 100px; z-index: -1; }
@@ -202,6 +203,7 @@ p { color: #444444; font: 1.6rem/2 "Unbounded-Regular"; }
 	width: 200px;
 	z-index: -1;
 }
+.dash-arrow-design.text-white { background-color: #ffffff; }
 .dash-arrow-design::after {
 	background-color: #444444;
 	-webkit-clip-path: polygon(100% 50%, 0 100%, 0 0);
@@ -219,6 +221,7 @@ p { color: #444444; font: 1.6rem/2 "Unbounded-Regular"; }
 	width: 5px;
 	z-index: -1;
 }
+.dash-arrow-design.text-white::after { background-color: #ffffff; }
 .dash-arrow-and-paragraph > p { margin-left: 230px; }
 .box-services { background-color: #ffffff; border: 2px solid #c4c4c4; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; margin-bottom: 30px; padding: 0 25px 30px; position: relative; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; z-index: 1; }
 .box-services-icon { -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px; height: 90px; margin: 30px auto 40px; position: relative; width: 90px; position: relative; z-index: 1; }
@@ -520,6 +523,31 @@ textarea.form-control-contact-us { height: 130px; resize: none; }
 
 /*------- Services Page Ends -------*/
 
+/*------- Individual Services Page Starts -------*/
+
+	/*------- Individual Services Section Starts -------*/
+
+.individual-services-info > p { margin-bottom: 20px; }
+.individual-services-info > p:last-child { margin-bottom: 0; }
+
+	/*------- Individual Services Section Ends -------*/
+
+	/*------- Work Process Section Starts -------*/
+
+.work-process-section { background-color: #041e20; }
+.box-work-process { border: 2px solid #38ad7e; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; overflow: hidden; position: relative; -webkit-transition: 0.25s ease; -moz-transition: 0.25s ease; -ms-transition: 0.25s ease; -o-transition: 0.25s ease; transition: 0.25s ease; z-index: 1; }
+.box-work-process-name { bottom: 30px; left: 30px; position: absolute; -webkit-transition: 0.25s ease; -moz-transition: 0.25s ease; -ms-transition: 0.25s ease; -o-transition: 0.25s ease; transition: 0.25s ease; z-index: -1; }
+.box-work-process-name > h5 { color: #ffffff; font: 1.8rem/normal "Unbounded-SemiBold"; margin-bottom: 10px; }
+.box-work-process-name > p { color: #c4c4c4; font-size: 1.4rem; padding-right: 30px; }
+.box-work-process-image > img { -webkit-transform: translateY(100%); -moz-transform: translateY(100%); -ms-transform: translateY(100%); -o-transform: translateY(100%); transform: translateY(100%); -webkit-transition: 0.25s ease; -moz-transition: 0.25s ease; -ms-transition: 0.25s ease; -o-transition: 0.25s ease; transition: 0.25s ease; width: 100%; }
+.box-work-process:hover { background-color: #041e20; border: 2px solid #ffffff; }
+.box-work-process:hover > .box-work-process-name { bottom: 0; transform: translateY(100%); -webkit-transform: translateY(100%); -moz-transform: translateY(100%); -ms-transform: translateY(100%); -o-transform: translateY(100%); }
+.box-work-process:hover > .box-work-process-image > img { transform: translateY(0); -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); }
+
+	/*------- Work Process Section Ends -------*/
+
+/*------- Individual Services Page Ends -------*/
+
 /*------- Technologies Page Starts -------*/
 
 	/*------- Technologies Section Starts -------*/
@@ -534,6 +562,25 @@ textarea.form-control-contact-us { height: 130px; resize: none; }
 	/*------- Technologies Section Ends -------*/
 
 /*------- Technologies Page Ends -------*/
+
+/*------- Work Page Starts -------*/
+
+	/*------- Work Section Starts -------*/
+
+.work-section > .container-fluid { padding-bottom: 40px; }
+.box-work {margin-bottom: 30px; }
+.box-work > a { display: block; }
+.box-work-image { -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; margin-bottom: 15px; overflow: hidden; position: relative; }
+.box-work-image > img { -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 100%; }
+.box-work-heading > h5 { color: #041e20; font: 1.8rem/1.4 "Unbounded-Medium"; text-align: center; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+.box-work-heading > h5 > span { color: #041e20; display: block; font: 1.6rem/1.4 "Unbounded-Regular"; letter-spacing: 0.5px; margin-top: 5px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+.box-work > a:hover > .box-work-image > img { -webkit-filter: brightness(0.75); filter: brightness(0.75); -webkit-transform: scale(1.2) rotate(7deg); -moz-transform: scale(1.2) rotate(7deg); -ms-transform: scale(1.2) rotate(7deg); -o-transform: scale(1.2) rotate(7deg); transform: scale(1.2) rotate(7deg); }
+.box-work > a:hover > .box-work-heading > h5,
+.box-work > a:hover > .box-work-heading > h5 > span { color: #38ad7e; }
+
+	/*------- Work Section Ends -------*/
+
+/*------- Work Page Ends -------*/
 
 /*------- Blogs Page Starts -------*/
 

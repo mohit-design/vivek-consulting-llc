@@ -9,7 +9,7 @@
 .section-heading > h2,
 .section-heading > h2.text-white { font-size: 2.4rem; }
 .section-heading > h2 { margin-bottom: 25px; }
-.section-heading-ip > h1 { font-size: 3rem; }
+.section-heading-ip > h1 { font-size: 2.7rem; }
 .dash-arrow-design { display: none; }
 .dash-arrow-and-paragraph { margin-bottom: 30px; }
 .dash-arrow-and-paragraph > p { margin-left: 0; }
@@ -83,7 +83,7 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
 .wrapper { margin-top: 0; }
 .banner-image > img { margin-bottom: 25px; }
-.banner-section-heading > h1 { font-size: 3rem; margin-bottom: 25px; }
+.banner-section-heading > h1 { font-size: 2.7rem; margin-bottom: 25px; }
 .banner-section-heading > h1 > span:last-child { color: #38ad7e; }
 .banner-section-heading > h1 > span:last-child::before { display: none; }
 
@@ -212,6 +212,7 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
 	/*------- Technologies Section Starts -------*/
 
+.technologies-section > .container-fluid { padding-bottom: 0; }
 .box-technologies { margin-bottom: 25px; }
 .box-technologies-icon { padding: 20px; }
 .box-technologies-icon > svg { height: 80px; width: 80px; }
