@@ -208,6 +208,25 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
 /*------- Services Page Ends -------*/
 
+/*------- Individual Services Page Starts -------*/
+
+	/*------- Work Process Section Starts -------*/
+
+.box-work-process-name { bottom: 25px; left: 25px; }
+.box-work-process-name > p { -webkit-box-orient: vertical;  display: -webkit-box; -webkit-line-clamp: 7; line-clamp: 7; overflow: hidden; padding-right: 25px; }
+
+	/*------- Work Process Section Ends -------*/
+
+	/*------- Estimation Section Starts -------*/
+
+.box-estimation { padding: 25px; }
+.estimation-section-heading > h4 { margin: 20px 0 25px; }
+.estimation-info > p { margin-bottom: 25px; }
+
+	/*------- Estimation Section Ends -------*/
+
+/*------- Individual Services Page Ends -------*/
+
 /*------- Technologies Page Starts -------*/
 
 	/*------- Technologies Section Starts -------*/
@@ -221,6 +240,39 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 	/*------- Technologies Section Ends -------*/
 
 /*------- Technologies Page Ends -------*/
+
+/*------- Work Page Starts -------*/
+
+	/*------- Work Section Starts -------*/
+
+.work-section > .container-fluid { padding-bottom: 0; }
+.box-work {margin-bottom: 25px; }
+
+	/*------- Work Section Ends -------*/
+
+/*------- Work Page Ends -------*/
+
+/*------- Blogs Page Starts -------*/
+
+	/*------- Blog Section Starts -------*/
+
+.blog-bgp-section > .container-fluid { padding-bottom: 0; }
+
+	/*------- Blog Section Ends -------*/
+
+/*------- Blogs Page Ends -------*/
+
+/*------- Blog Details Page Starts -------*/
+
+	/*------- Blog Section Starts -------*/
+
+.box-individual-blog-image > img { margin-bottom: 25px; }
+.box-individual-blog-info > h5 { font-size: 1.6rem; }
+.box-individual-blog-info > p { margin-bottom: 20px; }
+
+	/*------- Blog Section Ends -------*/
+
+/*------- Blog Details Page Ends -------*/
 
 }
 
