@@ -212,6 +212,7 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
 	/*------- Work Process Section Starts -------*/
 
+.work-process-section > .container-fluid { padding-bottom: 0; }
 .box-work-process-name { bottom: 25px; left: 25px; }
 .box-work-process-name > p { -webkit-box-orient: vertical;  display: -webkit-box; -webkit-line-clamp: 7; line-clamp: 7; overflow: hidden; padding-right: 25px; }
 
