@@ -535,16 +535,25 @@ textarea.form-control-contact-us { height: 130px; resize: none; }
 	/*------- Work Process Section Starts -------*/
 
 .work-process-section { background-color: #041e20; }
-.box-work-process { border: 2px solid #38ad7e; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; overflow: hidden; position: relative; -webkit-transition: 0.25s ease; -moz-transition: 0.25s ease; -ms-transition: 0.25s ease; -o-transition: 0.25s ease; transition: 0.25s ease; z-index: 1; }
+.box-work-process { border: 2px solid #38ad7e; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; margin-bottom: 30px; overflow: hidden; position: relative; -webkit-transition: 0.25s ease; -moz-transition: 0.25s ease; -ms-transition: 0.25s ease; -o-transition: 0.25s ease; transition: 0.25s ease; z-index: 1; }
 .box-work-process-name { bottom: 30px; left: 30px; position: absolute; -webkit-transition: 0.25s ease; -moz-transition: 0.25s ease; -ms-transition: 0.25s ease; -o-transition: 0.25s ease; transition: 0.25s ease; z-index: -1; }
 .box-work-process-name > h5 { color: #ffffff; font: 1.8rem/normal "Unbounded-SemiBold"; margin-bottom: 10px; }
 .box-work-process-name > p { color: #c4c4c4; font-size: 1.4rem; padding-right: 30px; }
 .box-work-process-image > img { -webkit-transform: translateY(100%); -moz-transform: translateY(100%); -ms-transform: translateY(100%); -o-transform: translateY(100%); transform: translateY(100%); -webkit-transition: 0.25s ease; -moz-transition: 0.25s ease; -ms-transition: 0.25s ease; -o-transition: 0.25s ease; transition: 0.25s ease; width: 100%; }
-.box-work-process:hover { background-color: #041e20; border: 2px solid #ffffff; }
+.box-work-process:hover { background: radial-gradient(#38ad7e,#041e20); border: 2px solid #ffffff; }
 .box-work-process:hover > .box-work-process-name { bottom: 0; transform: translateY(100%); -webkit-transform: translateY(100%); -moz-transform: translateY(100%); -ms-transform: translateY(100%); -o-transform: translateY(100%); }
 .box-work-process:hover > .box-work-process-image > img { transform: translateY(0); -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); }
 
 	/*------- Work Process Section Ends -------*/
+
+	/*------- Estimation Section Starts -------*/
+
+.box-estimation { background-color: rgb(56 173 126 / 10%); -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; padding: 50px; }
+.estimation-section-heading > h4 { color: #041e20; font: 2.4rem/1.4 "Unbounded-SemiBold"; margin: 20px 0 30px; }
+.estimation-section-heading > h4 span { color: #38ad7e; }
+.estimation-info > p { margin-bottom: 30px; }
+
+	/*------- Estimation Section Ends -------*/
 
 /*------- Individual Services Page Ends -------*/
 
