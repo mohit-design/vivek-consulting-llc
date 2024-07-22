@@ -46,7 +46,7 @@ p { color: #444444; font: 1.6rem/2 "Unbounded-Regular"; }
 .btn-primary > a { background-color: #041e20; border: 2px solid #041e20; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; color: #ffffff; font: 1.6rem/normal "Unbounded-Medium"; display: inline-block; padding: 11px 22px; text-align: center; }
 .btn-primary > a > svg { fill: #ffffff; margin: -5px 0 0 10px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
 .btn-primary > a:hover { background-color: #38ad7e; border: 2px solid #38ad7e; color: #ffffff; }
-.btn-primary > a:hover > svg { fill: #ffffff; }
+.btn-primary > a:hover > svg { fill: #ffffff; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
 .btn-secondary > a { border: 2px solid #041e20; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; color: #041e20; font: 1.6rem/normal "Unbounded-Medium"; display: inline-block; padding: 11px 22px; text-align: center; }
 .btn-secondary > a > svg { fill: #041e20; margin: -5px 0 0 10px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
 .btn-secondary > a:hover { background-color: #041e20; color: #ffffff; }
@@ -624,3 +624,21 @@ textarea.form-control-contact-us { height: 130px; resize: none; }
 	/*------- Blog Section Ends -------*/
 
 /*------- Blog Details Page Ends -------*/
+
+/*------- Contact Us Page Starts -------*/
+
+	/*------- Contact Us Section Starts -------*/
+
+.contact-us-map { border: 2px solid #041e20; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; height: 400px; margin-top: 70px; padding: 15px; width: 100%; }
+.box-contact-info { border: 2px solid #041e20; margin-bottom: 50px; padding: 60px 30px 30px; position: relative; z-index: 1; }
+.box-contact-info-icon { background-color: #ffffff; border: 2px solid #041e20; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; height: 70px; left: 50%; line-height: 70px; position: absolute; text-align: center; top: -35px; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 70px; z-index: 1; }
+.box-contact-info-icon > i { color: #041e20; font-size: 2.4rem; line-height: 70px; }
+.box-contact-info > p { font-family: "Unbounded-SemiBold"; text-align: center; }
+.box-contact-info > p > a { color: #041e20; font: 1.6rem/1.4 "Unbounded-SemiBold"; margin-bottom: 15px; }
+.box-contact-info > p > a:hover { color: #041e20; }
+.box-contact-info:hover > .box-contact-info-icon { background-color: #041e20; }
+.box-contact-info:hover > .box-contact-info-icon > i { color: #ffffff; }
+
+	/*------- Contact Us Section Ends -------*/
+
+/*------- Contact Us Page Ends -------*/
