@@ -275,6 +275,18 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
 /*------- Blog Details Page Ends -------*/
 
+/*------- Contact Us Page Starts -------*/
+
+	/*------- Contact Us Section Starts -------*/
+
+.box-contact-info { margin: 30px 0 35px; }
+.box-contact-info > p > a { word-wrap: break-word; }
+.contact-us-map { margin-top: 25px; }
+
+	/*------- Contact Us Section Ends -------*/
+
+/*------- Contact Us Page Ends -------*/
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
