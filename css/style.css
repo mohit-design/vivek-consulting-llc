@@ -629,15 +629,18 @@ textarea.form-control-contact-us { height: 130px; resize: none; }
 
 	/*------- Contact Us Section Starts -------*/
 
+.box-contact-info { border: 2px solid #041e20; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; margin: 50px 0 70px; padding: 60px 30px 30px; position: relative; z-index: 1; }
+.box-contact-info-icon { background-color: #ffffff; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; height: 70px; left: 50%; line-height: 70px; position: absolute; text-align: center; top: -35px; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 70px; z-index: 1; }
+.box-call-contact-info { border-color: #0e5f66; }
+.box-call-contact-info > div { background-color: #0e5f66; }
+.box-email-contact-info { border-color: #38ad7e; }
+.box-email-contact-info > div { background-color: #38ad7e; }
+.box-address-contact-info { border-color: #8bc34a; }
+.box-address-contact-info > div { background-color: #8bc34a; }
+.box-contact-info-icon > i { color: #ffffff; font-size: 2.4rem; line-height: 70px; }
+.box-contact-info > p { font-family: "Unbounded-Medium"; text-align: center; }
+.box-contact-info > p > a { color: #041e20; }
 .contact-us-map { border: 2px solid #041e20; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; height: 400px; margin-top: 70px; padding: 15px; width: 100%; }
-.box-contact-info { border: 2px solid #041e20; margin-bottom: 50px; padding: 60px 30px 30px; position: relative; z-index: 1; }
-.box-contact-info-icon { background-color: #ffffff; border: 2px solid #041e20; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; height: 70px; left: 50%; line-height: 70px; position: absolute; text-align: center; top: -35px; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 70px; z-index: 1; }
-.box-contact-info-icon > i { color: #041e20; font-size: 2.4rem; line-height: 70px; }
-.box-contact-info > p { font-family: "Unbounded-SemiBold"; text-align: center; }
-.box-contact-info > p > a { color: #041e20; font: 1.6rem/1.4 "Unbounded-SemiBold"; margin-bottom: 15px; }
-.box-contact-info > p > a:hover { color: #041e20; }
-.box-contact-info:hover > .box-contact-info-icon { background-color: #041e20; }
-.box-contact-info:hover > .box-contact-info-icon > i { color: #ffffff; }
 
 	/*------- Contact Us Section Ends -------*/
 
