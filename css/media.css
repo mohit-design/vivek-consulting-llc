@@ -104,7 +104,8 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 .box-services { margin-bottom: 25px; padding: 0 20px 25px; }
 .box-services:hover { -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); }
 .box-services-icon { margin: 20px auto 40px; }
-.box-services-icon::after { top: -20px; }
+.box-services-icon::after,
+.box-services-sp-icon::after { top: -20px; }
 .box-services-info > h4 > span { display: inline; }
 .box-services-info > p > a { font-size: 1.4rem; }
 .view-more-services-details,
@@ -137,7 +138,7 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
   /*------- Contact Us Section Starts -------*/
 
 .contact-us-section > .container-fluid { padding: 60px 15px 25px; }
-.contact-us-image > img { margin-bottom: 25px; }
+.contact-us-image > img { margin: 25px 0; }
 .form-group-contact-us { margin-bottom: 20px; }
 .form-control-contact-us { font-size: 1.4rem; }
 
@@ -201,6 +202,7 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
 .box-services-sp { display: block; margin-bottom: 25px; padding: 20px 20px 30px; text-align: center; }
 .box-services-sp-icon { margin: 0 auto 45px; }
+.box-services-sp-info { width: 100%; }
 .box-services-sp-info > h4 { margin-bottom: 10px; }
 .box-services-sp-info > p:nth-child(2) { margin-bottom: 15px; }
 

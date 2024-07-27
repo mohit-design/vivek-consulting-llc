@@ -223,23 +223,39 @@ p { color: #444444; font: 1.6rem/2 "Unbounded-Regular"; }
 }
 .dash-arrow-design.text-white::after { background-color: #ffffff; }
 .dash-arrow-and-paragraph > p { margin-left: 230px; }
-.box-services { background-color: #ffffff; border: 2px solid #c4c4c4; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; margin-bottom: 30px; padding: 0 25px 30px; position: relative; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; z-index: 1; }
-.box-services-icon { -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px; height: 90px; margin: 30px auto 40px; position: relative; width: 90px; position: relative; z-index: 1; }
-.box-services-icon > svg { fill: #ffffff; height: 45px; width: 90px; }
-.box-services-icon-1 { background-color: #ffa808; }
-.box-services-icon-2 { background-color: #ff586e; }
-.box-services-icon-3 { background-color: #029e76; }
-.box-services-icon-4 { background-color: #8bc34a; }
-.box-services-icon-5 { background-color: #0b76cb; }
-.box-services-icon-6 { background-color: #795548; }
-.box-services-icon-7 { background-color: #824cdb; }
+.box-services { background-color: #ffffff; border: 2px solid #c4c4c4; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; margin-bottom: 30px; padding: 0 25px 30px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+.box-services-icon,
+.box-services-sp-icon { -webkit-align-items: center; align-items: center; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; height: 90px; justify-content: center; margin: 30px auto 40px; position: relative; width: 90px; z-index: 1; }
+.box-services-sp-icon { margin: 0 40px 0 0; }
+.box-services-sp-info { width: calc(100% - 130px); }
+.box-services-icon-1,
+.box-services-sp-icon-1 { background-color: #ffa808; }
+.box-services-icon-2,
+.box-services-sp-icon-2 { background-color: #ff586e; }
+.box-services-icon-3,
+.box-services-sp-icon-3 { background-color: #029e76; }
+.box-services-icon-4,
+.box-services-sp-icon-4 { background-color: #8bc34a; }
+.box-services-icon-5,
+.box-services-sp-icon-5 { background-color: #0b76cb; }
+.box-services-icon-6,
+.box-services-sp-icon-6 { background-color: #795548; }
+.box-services-icon-7,
+.box-services-sp-icon-7 { background-color: #824cdb; }
 .box-services-icon-1::after,
+.box-services-sp-icon-1::after,
 .box-services-icon-2::after,
+.box-services-sp-icon-2::after,
 .box-services-icon-3::after,
+.box-services-sp-icon-3::after,
 .box-services-icon-4::after,
+.box-services-sp-icon-4::after,
 .box-services-icon-5::after,
+.box-services-sp-icon-5::after,
 .box-services-icon-6::after,
-.box-services-icon-7::after {
+.box-services-sp-icon-6::after,
+.box-services-icon-7::after,
+.box-services-sp-icon-7::after {
 	background-image: url("../images/services-dots-1.png");
 	background-position: 100%;
 	content: "";
@@ -256,14 +272,36 @@ p { color: #444444; font: 1.6rem/2 "Unbounded-Regular"; }
 	width: 82px;
 	z-index: -1;
 }
-.box-services-icon-2::after { background-image: url("../images/services-dots-2.png"); }
-.box-services-icon-3::after { background-image: url("../images/services-dots-3.png"); }
-.box-services-icon-4::after { background-image: url("../images/services-dots-4.png"); }
-.box-services-icon-5::after { background-image: url("../images/services-dots-5.png"); }
-.box-services-icon-6::after { background-image: url("../images/services-dots-6.png"); }
-.box-services-icon-7::after { background-image: url("../images/services-dots-7.png"); }
-.box-services-info > h4 { color: #041e20; font: 1.8rem/1.4 "Unbounded-Medium"; margin-bottom: 15px; text-transform: uppercase; }
-.box-services-info > h4 > span { display: block; }
+.box-services-icon-2::after,
+.box-services-sp-icon-2::after { background-image: url("../images/services-dots-2.png"); }
+.box-services-icon-3::after,
+.box-services-sp-icon-3::after { background-image: url("../images/services-dots-3.png"); }
+.box-services-icon-4::after,
+.box-services-sp-icon-4::after { background-image: url("../images/services-dots-4.png"); }
+.box-services-icon-5::after,
+.box-services-sp-icon-5::after { background-image: url("../images/services-dots-5.png"); }
+.box-services-icon-6::after,
+.box-services-sp-icon-6::after { background-image: url("../images/services-dots-6.png"); }
+.box-services-icon-7::after,
+.box-services-sp-icon-7::after { background-image: url("../images/services-dots-7.png"); }
+.box-services-icon-1 > img,
+.box-services-sp-icon-1 > img { width: 55px; }
+.box-services-icon-2 > img,
+.box-services-sp-icon-2 > img { width: 55px; }
+.box-services-icon-3 > img,
+.box-services-sp-icon-3 > img { width: 45px; }
+.box-services-icon-4 > img,
+.box-services-sp-icon-4 > img { width: 60px; }
+.box-services-icon-5 > img,
+.box-services-sp-icon-5 > img { width: 55px; }
+.box-services-icon-6 > img,
+.box-services-sp-icon-6 > img { width: 55px; }
+.box-services-icon-7 > img,
+.box-services-sp-icon-7 > img { width: 40px; }
+.box-services-info > h4,
+.box-services-sp-info > h4 { color: #041e20; font: 1.8rem/1.4 "Unbounded-Medium"; margin-bottom: 15px; text-transform: uppercase; }
+.box-services-info > h4 > span,
+.box-services-sp-info > h4 > span { display: block; }
 .box-services-info > p:nth-child(2) {
 	margin-bottom: 15px;
 	overflow: hidden;
@@ -273,11 +311,16 @@ p { color: #444444; font: 1.6rem/2 "Unbounded-Regular"; }
 					line-clamp: 3; 
 	-webkit-box-orient: vertical;
 }
-.box-services-info > p > a { color: #041e20; font: 1.6rem/1.2 "Unbounded-Medium"; padding-bottom: 10px; position: relative; text-transform: uppercase; z-index: 1; }
-.box-services-info > p > a::after { background-color: #041e20; bottom: 0; content: ""; height: 2px; left: 50%; position: absolute; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 50%; z-index: 1; }
-.box-services-info > p > a:hover { color: #38ad7e; }
-.box-services-info > p > a:hover::after { background-color: #38ad7e; width: 100%; }
-.box-services:hover { -webkit-transform: translateY(-10px); -moz-transform: translateY(-10px); -ms-transform: translateY(-10px); -o-transform: translateY(-10px); transform: translateY(-10px); }
+.box-services-info > p > a,
+.box-services-sp-info > p > a { color: #041e20; font: 1.6rem/1.2 "Unbounded-Medium"; padding-bottom: 10px; position: relative; text-transform: uppercase; z-index: 1; }
+.box-services-info > p > a::after,
+.box-services-sp-info > p > a::after { background-color: #041e20; bottom: 0; content: ""; height: 2px; left: 50%; position: absolute; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 50%; z-index: 1; }
+.box-services-info > p > a:hover,
+.box-services-sp-info > p > a:hover { color: #38ad7e; }
+.box-services-info > p > a:hover::after,
+.box-services-sp-info > p > a:hover::after { background-color: #38ad7e; width: 100%; }
+.box-services:hover,
+.box-services-sp:hover { -webkit-transform: translateY(-10px); -moz-transform: translateY(-10px); -ms-transform: translateY(-10px); -o-transform: translateY(-10px); transform: translateY(-10px); }
 .box-services:hover .box-services-icon::after { right: 40px; }
 .view-more-services-details,
 .view-more-blog-details { margin-top: 20px; }
@@ -508,16 +551,15 @@ textarea.form-control-contact-us { height: 130px; resize: none; }
 	/*------- Services Section Starts -------*/
 
 .technologies-section > .container-fluid { padding-bottom: 40px; }
-.box-services-sp { border: 2px solid #c4c4c4; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; margin-bottom: 50px; padding: 30px 20px 35px; }
+.box-services-sp { background-color: #ffffff; border: 2px solid #c4c4c4; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; margin-bottom: 50px; padding: 30px 20px 35px; }
 .box-services-sp:last-child { margin-bottom: 0; }
-.box-services-sp-icon { -webkit-align-items: center; align-items: center; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; justify-content: center; margin: 0 50px 0 0; }
 .box-services-sp-info > h4 { color: #041e20; font: 1.8rem/1.4 "Unbounded-Medium"; margin-bottom: 5px; text-transform: uppercase; }
 .box-services-sp-info > p:nth-child(2) { margin-bottom: 10px; }
 .box-services-sp-info > p > a { color: #041e20; font: 1.6rem/1.2 "Unbounded-Medium"; padding-bottom: 10px; position: relative; text-transform: uppercase; z-index: 1; }
 .box-services-sp-info > p > a::after { background-color: #041e20; bottom: 0; content: ""; height: 2px; left: 50%; position: absolute; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 50%; z-index: 1; }
 .box-services-sp-info > p > a:hover { color: #38ad7e; }
 .box-services-sp-info > p > a:hover::after { background-color: #38ad7e; width: 100%; }
-.box-services-sp:hover .box-services-icon::after { right: 20px; }
+.box-services-sp:hover .box-services-sp-icon::after { right: 20px; }
 
 	/*------- Services Section Ends -------*/
 
