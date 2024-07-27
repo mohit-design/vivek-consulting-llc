@@ -43,8 +43,12 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -moz
 .section-heading-ip > h1 { color: #ffffff; font: 4rem/1.2 "Unbounded-Bold"; padding-bottom: 10px; position: relative; text-align: center; text-transform: uppercase; z-index: 1; }
 .section-heading-ip > h1::after { background-color: #fff; bottom: 0; content: ""; display: block; height: 2px; left: 50%; position: absolute; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); width: 100px; z-index: -1; }
 p { color: #444444; font: 1.6rem/2 "Unbounded-Regular"; }
+button.btn-primary,
 .btn-primary > a { background-color: #041e20; border: 2px solid #041e20; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; color: #ffffff; font: 1.6rem/normal "Unbounded-Medium"; display: inline-block; padding: 11px 22px; text-align: center; }
+button.btn-primary { -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+button.btn-primary > svg,
 .btn-primary > a > svg { fill: #ffffff; margin: -5px 0 0 10px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+button.btn-primary:hover,
 .btn-primary > a:hover { background-color: #38ad7e; border: 2px solid #38ad7e; color: #ffffff; }
 .btn-primary > a:hover > svg { fill: #ffffff; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
 .btn-secondary > a { border: 2px solid #041e20; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; color: #041e20; font: 1.6rem/normal "Unbounded-Medium"; display: inline-block; padding: 11px 22px; text-align: center; }
@@ -400,12 +404,18 @@ p { color: #444444; font: 1.6rem/2 "Unbounded-Regular"; }
 	/*------- Contact Us Section Starts -------*/
 
 .contact-us-section > .container-fluid { padding: 200px 15px 70px; }
-.form-group-contact-us { margin-bottom: 30px; }
-.form-control-contact-us { border: 2px solid #041e20; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; color: #041e20; font-family: "Unbounded-Regular"; font-size: 1.6rem; height: 44px; letter-spacing: 0.5px; padding: 6px 12px; }
-.form-control-contact-us::placeholder { color: #041e20; opacity: 1; }
-textarea.form-control-contact-us { height: 130px; resize: none; }
-.form-control-contact-us:focus { border: 2px solid #38ad7e; box-shadow: none; outline: 0; }
-.form-control-contact-us:focus::placeholder { color: #38ad7e; }
+.form-group-contact-us,
+.form-group-career { margin-bottom: 30px; }
+.form-control-contact-us,
+.form-control-career { border: 2px solid #041e20; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; color: #041e20; font-family: "Unbounded-Regular"; font-size: 1.6rem; height: 44px; letter-spacing: 0.5px; padding: 6px 12px; }
+.form-control-contact-us::placeholder,
+.form-control-career::placeholder { color: #041e20; opacity: 1; }
+textarea.form-control-contact-us,
+textarea.form-control-career { height: 130px; resize: none; }
+.form-control-contact-us:focus,
+.form-control-career:focus { border: 2px solid #38ad7e; box-shadow: none; outline: 0; }
+.form-control-contact-us:focus::placeholder,
+.form-control-career:focus::placeholder { color: #38ad7e; }
 .btn-submit { background-color: #041e20; border: 2px solid #041e20; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; color: #ffffff; font: 1.6rem/normal "Unbounded-Medium"; display: inline-block; padding: 11px 22px; text-align: center; }
 .btn-submit:hover { background-color: #38ad7e; color: #ffffff; }
 
@@ -666,6 +676,68 @@ textarea.form-control-contact-us { height: 130px; resize: none; }
 	/*------- Blog Section Ends -------*/
 
 /*------- Blog Details Page Ends -------*/
+
+/*------- Career Page Starts -------*/
+
+	/*------- Career Section Starts -------*/
+
+.box-career { border: 2px solid #0e5f66; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; cursor: pointer; margin-bottom: 30px; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+.box-career:hover { -webkit-transform: translateY(-10px); -moz-transform: translateY(-10px); -ms-transform: translateY(-10px); -o-transform: translateY(-10px); transform: translateY(-10px); }
+.box-career > a > h5 { background-color: #0e5f66; -webkit-border-radius: 10px 10px 0 0; -moz-border-radius: 10px 10px 0 0; -ms-border-radius: 10px 10px 0 0; -o-border-radius: 10px 10px 0 0; border-radius: 10px 10px 0 0; color: #ffffff; font: 1.8rem/1.4 "Unbounded-Medium"; padding: 15px; }
+.box-career-info { padding: 15px; }
+.box-career-info > p { color: #0e5f66; font: 1.6rem/1.4 "Unbounded-Medium"; margin-bottom: 5px; }
+.box-career-info > p:last-of-type { margin-bottom: 0; }
+.box-career-info > p > span { font-family: "Unbounded-SemiBold"; }
+
+	/*------- Career Section Ends -------*/
+
+	/*------- Job Responsibilities Section Starts -------*/
+
+.jd-listing { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; justify-content: center; margin-bottom: 50px; }
+.jd-listing > li { margin-right: 15px; }
+.jd-listing > li:last-child { margin-right: 0; }
+.jd-listing > li > a { background-color: #ffffff; border: 2px solid #0e5f66; -webkit-border-radius: 7px; -moz-border-radius: 7px; -ms-border-radius: 7px; -o-border-radius: 7px; border-radius: 7px; color: #0e5f66; display: block; font: 1.6rem/1.6 "Unbounded-Medium"; padding: 10px 15px; }
+.jd-listing > li.active > a,
+.jd-listing > li > a:hover { background-color: #0e5f66; color: #ffffff; }
+.box-job-responsibilities { background-color: rgb(14 95 102 / 5%); -webkit-border-radius: 24px; -moz-border-radius: 24px; -ms-border-radius: 24px; -o-border-radius: 24px; border-radius: 24px; padding: 30px; }
+.box-job-responsibilities.active { display: block; }
+.box-job-responsibilities.hide { display: none; }
+.job-responsibilities > h6 { color: #041e20; font: 1.4rem/1.4 "Unbounded-Regular"; margin-bottom: 10px; text-transform: uppercase; }
+.job-responsibilities > h4 { color: #0e5f66; font: 2.4rem/1.4 "Unbounded-Medium"; margin-bottom: 5px; }
+.job-responsibilities > p { color: #041e20; font: 1.6rem/1.4 "Unbounded-Regular"; margin-bottom: 20px; }
+.job-responsibilities-in-detail > h4 { color: #041e20; font: 1.8rem/1.4 "Unbounded-Medium"; margin-bottom: 15px; }
+.job-responsibilities-listing { margin-bottom: 20px; }
+.job-responsibilities-listing > li { color: #041e20; display: block; font: 1.6rem/1.7 "Unbounded-Regular"; margin-bottom: 10px; padding-left: 25px; position: relative; }
+.job-responsibilities-listing > li::before { border: 2px solid #041e20; -webkit-border-radius: 0 4px; -moz-border-radius: 0 4px; -ms-border-radius: 0 4px; -o-border-radius: 0 4px; border-radius: 0 4px; content: ""; display: block; height: 14px; left: 0; position: absolute; top: 6px; width: 14px; }
+.job-responsibilities-listing > li:last-child { margin-bottom: 0; }
+
+		/*------- Career Form Section Starts -------*/
+
+.career-form-section { display: none; margin-top: -30px; }
+.career-form-section > .container-fluid { padding-top: 0; }
+.career-form { background-color: rgb(14 95 102 / 5%); -webkit-border-radius: 24px; -moz-border-radius: 24px; -ms-border-radius: 24px; -o-border-radius: 24px; border-radius: 24px; padding: 30px; }
+.form-control-career { background-color: transparent; }
+
+		/*------- Career Form Section Ends -------*/
+
+		/*------- Custom Input File CSS Starts -------*/
+
+.filelabel { border: 2px solid #041e20; -webkit-border-radius: 5px; -moz-border-radius: 5px; -ms-border-radius: 5px; -o-border-radius: 5px; border-radius: 5px; cursor: pointer; display: block; margin: 0 0 30px; padding: 20px; text-align: center; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; width: 100%; }
+.filelabel i { display: block; font-size: 3rem; padding-bottom: 5px; }
+.filelabel i,
+.filelabel .title { color: #041e20; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; }
+.filelabel .title { color: #041e20; font: 1.8rem/1.4 "Unbounded-Medium"; }
+.filelabel .title > span { display: block; font: 1.4rem/1.4 "Unbounded-Regular"; }
+.filelabel:hover { border: 2px solid #38ad7e; }
+.filelabel:hover i,
+.filelabel:hover .title { color: #38ad7e; } 
+#FileInput { display:none; }
+		
+		/*------- Custom Input File CSS Ends -------*/
+
+	/*------- Job Responsibilities Section Ends -------*/
+
+/*------- Career Page Ends -------*/
 
 /*------- Contact Us Page Starts -------*/
 

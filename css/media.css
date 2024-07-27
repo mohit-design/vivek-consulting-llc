@@ -272,6 +272,7 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 .box-individual-blog-image > img { margin-bottom: 25px; }
 .box-individual-blog-info > h5 { font-size: 1.6rem; }
 .box-individual-blog-info > p { margin-bottom: 20px; }
+.box-individual-blog-info > p:last-child { margin-bottom: 25px; }
 
 	/*------- Blog Section Ends -------*/
 
