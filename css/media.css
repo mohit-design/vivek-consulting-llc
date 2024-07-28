@@ -139,7 +139,8 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
 .contact-us-section > .container-fluid { padding: 60px 15px 25px; }
 .contact-us-image > img { margin: 25px 0; }
-.form-group-contact-us { margin-bottom: 20px; }
+.form-group-contact-us,
+.form-group-career { margin-bottom: 20px; }
 .form-control-contact-us { font-size: 1.4rem; }
 
   /*------- Contact Us Section Ends -------*/
@@ -235,6 +236,9 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 	/*------- Technologies Section Starts -------*/
 
 .technologies-section > .container-fluid { padding-bottom: 0; }
+.tech-listing { display: block; margin-bottom: 15px; }
+.tech-listing > li { display: inline-block; margin: 0 7px 10px 0; }
+.tech-listing > li:last-child { margin: 0 0 10px 0; }
 .box-technologies { margin-bottom: 25px; }
 .box-technologies-icon { padding: 20px; }
 .box-technologies-icon > svg { height: 80px; width: 80px; }
@@ -277,6 +281,50 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 	/*------- Blog Section Ends -------*/
 
 /*------- Blog Details Page Ends -------*/
+
+/*------- Career Page Starts -------*/
+
+	/*------- Career Section Starts -------*/
+
+.career-section > .container-fluid { padding-bottom: 0; }
+.box-career { margin-bottom: 25px; }
+.box-career > a > h5 { font-size: 1.6rem; padding: 10px 15px; }
+.box-career-info > p { font-size: 1.4rem; }
+
+	/*------- Career Section Ends -------*/
+
+	/*------- Job Responsibilities Section Starts -------*/
+
+.job-responsibilities-section > .container-fluid { padding-top: 0; }
+.jd-listing { display: block; margin-bottom: 15px; }
+.jd-listing > li { display: inline-block; margin: 0 7px 10px 0; }
+.jd-listing > li:last-child { margin: 0 0 10px 0; }
+.box-job-responsibilities { padding: 25px; }
+.job-responsibilities > h4 { font-size: 1.8rem; }
+.job-responsibilities > p { font-size: 1.4rem; margin-bottom: 15px; }
+.job-responsibilities-in-detail > h4 { font-size: 1.6rem; }
+.job-responsibilities-listing { margin-bottom: 15px; }
+.job-responsibilities-listing > li { font-size: 1.4rem; }
+.btn-apply { margin-top: 25px; }
+
+		/*------- Career Form Section Starts -------*/
+
+.career-form { padding: 25px; }
+.career-form-section { margin-top: 0; }
+.filelabel { margin: 0 0 25px; }
+
+		/*------- Career Form Section Ends -------*/
+
+		/*------- Custom Input File CSS Starts -------*/
+
+.filelabel .title { font-size: 1.6rem; line-height: 1.7; }
+.filelabel .title > span { font-size: 1.2rem; }
+		
+		/*------- Custom Input File CSS Ends -------*/
+
+	/*------- Job Responsibilities Section Ends -------*/
+
+/*------- Career Page Ends -------*/
 
 /*------- Contact Us Page Starts -------*/
 
