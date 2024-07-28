@@ -286,7 +286,6 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
 	/*------- Career Section Starts -------*/
 
-.career-section > .container-fluid { padding-bottom: 0; }
 .box-career { margin-bottom: 25px; }
 .box-career > a > h5 { font-size: 1.6rem; padding: 10px 15px; }
 .box-career-info > p { font-size: 1.4rem; }
