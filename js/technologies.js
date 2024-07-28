@@ -20,3 +20,18 @@ $(document).ready(function() {
     stagger: 0.05
   });
 });
+$(window).on("load", function() {
+	$(".grid").isotope({
+		itemSelector: '.grid-item',
+		layoutMode: 'fitRows'
+	}); 
+	$(".tech-listing > li").click(function() {
+		$(".tech-listing > li").removeClass("active");
+		$(this).addClass("active");
+		var selector = $(this).attr('data-filter');
+		$(".grid").isotope({
+			filter: selector
+		});
+		return false;
+	});
+});
