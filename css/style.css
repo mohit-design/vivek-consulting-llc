@@ -587,7 +587,7 @@ textarea.form-control-career { height: 130px; resize: none; }
 	/*------- Work Process Section Starts -------*/
 
 .work-process-section { background-color: #041e20; }
-.work-process-section > .container-fluid { padding-bottom: 40px; }
+.work-process-section > .container-fluid { margin-bottom: 70px; padding-bottom: 40px; }
 .box-work-process { border: 2px solid #38ad7e; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; margin-bottom: 30px; overflow: hidden; position: relative; -webkit-transition: 0.25s ease; -moz-transition: 0.25s ease; -ms-transition: 0.25s ease; -o-transition: 0.25s ease; transition: 0.25s ease; z-index: 1; }
 .box-work-process-name { bottom: 30px; left: 30px; position: absolute; -webkit-transition: 0.25s ease; -moz-transition: 0.25s ease; -ms-transition: 0.25s ease; -o-transition: 0.25s ease; transition: 0.25s ease; z-index: -1; }
 .box-work-process-name > h5 { color: #ffffff; font: 1.8rem/normal "Unbounded-SemiBold"; margin-bottom: 10px; }
@@ -601,6 +601,7 @@ textarea.form-control-career { height: 130px; resize: none; }
 
 	/*------- Estimation Section Starts -------*/
 
+.estimation-section > .container-fluid { padding-top: 0; }
 .box-estimation { background-color: rgb(56 173 126 / 10%); -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; padding: 50px; }
 .estimation-section-heading > h4 { color: #041e20; font: 2.4rem/1.4 "Unbounded-SemiBold"; margin: 20px 0 30px; }
 .estimation-section-heading > h4 span { color: #38ad7e; }
