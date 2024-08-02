@@ -463,12 +463,26 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
   /*------- Footer Section Starts -------*/
 
-.footer-social-account-listing,
+.footer-logo-contact-listing,
 .footer-logo-contact-sub-listing { display: block; }
 
   /*------- Footer Section Ends -------*/
 
 /*------- Home Page Ends -------*/
+
+/*------- Services Page Starts -------*/
+
+	/*------- Services Section Starts -------*/
+
+.box-services-sp { display: block; margin-bottom: 25px; text-align: center; }
+.box-services-sp-icon { margin: 0 auto 45px; }
+.box-services-sp-info { width: 100%; }
+.box-services-sp-info > h4 { margin-bottom: 10px; }
+.box-services-sp-info > p:nth-child(2) { margin-bottom: 15px; }
+
+	/*------- Services Section Ends -------*/
+
+/*------- Services Page Ends -------*/
 
 }
 
@@ -595,8 +609,6 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
   /*------- Footer Section Starts -------*/
 
-.footer-social-account-listing,
-.footer-logo-contact-sub-listing { display: block; }
 
   /*------- Footer Section Ends -------*/
 
@@ -676,8 +688,6 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
   /*------- Footer Section Starts -------*/
 
-.footer-social-account-listing,
-.footer-logo-contact-sub-listing { display: block; }
 
   /*------- Footer Section Ends -------*/
 
