@@ -478,6 +478,27 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
 /*------- Home Page Ends -------*/
 
+/*------- About Us Page Starts -------*/
+
+  /*------- Mission and Vision Section Starts -------*/
+
+.mission-vision-image > img { margin-bottom: 30px; }
+.mission-vision-info > h4 { font-size: 2.2rem; }
+
+	/*------- Mission and Vision Section Ends -------*/
+
+  /*------- Testimonials Section Starts -------*/
+
+.testimonial-section > .container-fluid { padding-bottom: 105px; padding-top: 0; }
+.testimonials-image > img { margin-bottom: 30px; }
+.testimonial-section .slick-prev { left: 39%; }
+.testimonial-section .slick-next { right: 39%; }
+
+  /*------- Testimonials Section Ends -------*/
+
+/*------- About Us Page Ends -------*/
+
+
 /*------- Services Page Starts -------*/
 
 	/*------- Services Section Starts -------*/
@@ -633,6 +654,26 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
 
 /*------- Home Page Ends -------*/
 
+/*------- About Us Page Starts -------*/
+
+  /*------- Mission and Vision Section Starts -------*/
+
+.mission-vision-image > img { margin-bottom: 40px; }
+.mission-vision-info > h4 { font-size: 2.2rem; }
+
+	/*------- Mission and Vision Section Ends -------*/
+
+  /*------- Testimonials Section Starts -------*/
+
+.testimonial-section > .container-fluid { padding-bottom: 115px; padding-top: 0; }
+.testimonials-image > img { margin-bottom: 40px; }
+.testimonial-section .slick-prev { left: 42%; }
+.testimonial-section .slick-next { right: 42%; }
+
+  /*------- Testimonials Section Ends -------*/
+
+/*------- About Us Page Ends -------*/
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -766,5 +807,24 @@ p { font: 1.4rem/1.8 "Unbounded-Regular"; }
   /*------- Footer Section Ends -------*/
 
 /*------- Home Page Ends -------*/
+
+/*------- About Us Page Starts -------*/
+
+  /*------- Mission and Vision Section Starts -------*/
+
+.mission-vision-section > .container-fluid { padding-top: 40px; }
+.mission-vision-info > h4 { font-size: 2.2rem; }
+
+	/*------- Mission and Vision Section Ends -------*/
+
+  /*------- Testimonials Section Starts -------*/
+
+.testimonial-section > .container-fluid { padding-bottom: 40px; }
+.testimonial-section .slick-prev { left: 40%; }
+.testimonial-section .slick-next { right: 40%; }
+
+  /*------- Testimonials Section Ends -------*/
+
+/*------- About Us Page Ends -------*/
 
 }

@@ -499,6 +499,7 @@ textarea.form-control-career { height: 130px; resize: none; }
 	/*------- Mission and Vision Section Starts -------*/
 
 .mission-vision-section > .container-fluid { padding-top: 0; }
+.mission-vision-image > img { width: 100%; }
 .mission-vision-info > h4 { color: #38ad7e; font: 2.4rem/normal "Unbounded-Medium"; margin-bottom: 10px; }
 .mission-vision-info > p { margin-bottom: 20px; }
 .mission-vision-info > p:last-child { margin-bottom: 0; }
@@ -508,6 +509,7 @@ textarea.form-control-career { height: 130px; resize: none; }
 	/*------- Testimonials Section Starts -------*/
 
 .testimonial-section > .container-fluid { padding-bottom: 125px; }
+.testimonials-image > img { width: 100%; }
 .box-testimonials-info { background-color: #38ad7e; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; padding: 20px; }
 .box-testimonials-info > p { border-bottom: 1px solid #c4c4c4; color: #ffffff; margin-bottom: 15px; padding-bottom: 15px; }
 .media-left-testimonials { margin-right: 10px; }
