@@ -362,18 +362,10 @@ button.btn-primary:hover,
 	/*------- Why Choose Us Section Starts -------*/
 
 .why-choose-us-image > img { width: 100%; }
-.box-why-choose-us { background-color: #ffffff; border: 2px solid #c4c4c4; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; margin: 45px 0 30px; padding: 75px 25px 30px; position: relative; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; z-index: 1; }
+.box-why-choose-us { background-color: #ffffff; border: 2px solid #c4c4c4; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; margin: 45px 0 30px; padding: 75px 15px 30px; position: relative; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; z-index: 1; }
 .box-why-choose-us-icon { background-color: #ffffff; border: 2px solid #c4c4c4; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; height: 90px; left: 50%; position: absolute; top: -45px; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; width: 90px; z-index: 1; }
 .box-why-choose-us-icon > svg { height: 45px; fill: #38ad7e; }
 .box-why-choose-us-info > h4 { color: #041e20; font: 1.8rem/1.2 "Unbounded-Medium"; margin-bottom: 15px; text-transform: uppercase; }
-.box-why-choose-us-info > p {
-	overflow: hidden;
-	text-overflow: ellipsis;
-	display: -webkit-box;
-	-webkit-line-clamp: 3;
-					line-clamp: 3; 
-	-webkit-box-orient: vertical;
-}
 .box-why-choose-us:hover,
 .box-why-choose-us:hover > .box-why-choose-us-icon { border: 1px solid #38ad7e; }
 .box-why-choose-us:hover > .box-why-choose-us-icon { background-color: #38ad7e; }
@@ -764,6 +756,7 @@ textarea.form-control-career { height: 130px; resize: none; }
 .box-contact-info-icon > i { color: #ffffff; font-size: 2.4rem; line-height: 70px; }
 .box-contact-info > p { font-family: "Unbounded-Medium"; text-align: center; }
 .box-contact-info > p > a { color: #041e20; }
+.box-contact-info > p > a:hover { color: #38ad7e; }
 .contact-us-map { border: 2px solid #041e20; -webkit-border-radius: 14px; -moz-border-radius: 14px; -ms-border-radius: 14px; -o-border-radius: 14px; border-radius: 14px; height: 400px; margin-top: 70px; padding: 15px; width: 100%; }
 
 	/*------- Contact Us Section Ends -------*/
